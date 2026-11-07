@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-20",
+  "scope": "Standalone standard-mode style integration, not new-topic production or art approval.",
+  "resourceApplication": {
+    "tests": 8,
+    "passed": 8,
+    "checks": [
+      "isolated MG-only installation",
+      "hashes and CSS/font closure",
+      "idempotence",
+      "conflict preservation",
+      "portable child and grandchild inheritance after relocation",
+      "unsupported-mode and corrupt-resource preflight rejection",
+      "existing standard/advanced style regression",
+      "existing inheritance regression"
+    ]
+  },
+  "skillValidation": "passed",
+  "browser": {
+    "passed": true,
+    "checks": [
+      "local resources only",
+      "custom fonts actually rendered",
+      "three glass normal/edge maps",
+      "deterministic transform probes and reverse seek",
+      "idempotent optical initialization",
+      "no material or color leakage outside the scene"
+    ],
+    "actualRenderedFonts": {
+      "title": [
+        {
+          "familyName": "Noto Sans SC Thin",
+          "postScriptName": "NotoSansSC-ExtraBold",
+          "isCustomFont": true,
+          "glyphCount": 12
+        }
+      ],
+      "numbers": [
+        {
+          "familyName": "Montserrat Thin",
+          "postScriptName": "Montserrat-ExtraBold",
+          "isCustomFont": true,
+          "glyphCount": 2
+        }
+      ],
+      "captions": [
+        {
+          "familyName": "OPPO Sans 4.0",
+          "postScriptName": "OPPO-Sans-4.0-Regular",
+          "isCustomFont": true,
+          "glyphCount": 22
+        }
+      ]
+    }
+  },
+  "testedFiles": [
+    {
+      "path": "FRAME.md",
+      "sha256": "4a3248b3e67c81e57a090a201e623cd8beaf5387fff40ed857b900fbdc526091"
+    },
+    {
+      "path": "recipes.md",
+      "sha256": "a7fcabcb67a66b8932d1b5bfd2592cc49c9f2f74ec1593d75125f4b697dfcbac"
+    },
+    {
+      "path": "runtime/glass.js",
+      "sha256": "9296541e202d8e4c184233782a84fbcb4cb0936211bafc6019dc78714a64f326"
+    },
+    {
+      "path": "runtime/mg-style.css",
+      "sha256": "590680673a301c16cd5fe1580fcab8b8a848d44a00a86840ace3b0c285b166f9"
+    },
+    {
+      "path": "fonts/noto.ttf",
+      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+    },
+    {
+      "path": "fonts/montserrat.ttf",
+      "sha256": "0f7b311b2f3279e4eef9b2f968bcdbab6e28f4daeb1f049f4f278a902bcd82f7"
+    },
+    {
+      "path": "fonts/oppo.ttf",
+      "sha256": "6c7d5864c661516e1f400d9f21e4297f2e2a0719909691e29607cc4ef484a9f4"
+    }
+  ],
+  "loaderSha256": "63c3c7005b5d5408088d3599e4b5b9b86c681ecf9b3e3efe8a668dac64919d6d",
+  "artDirection": "not_reviewed"
+}

@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-20",
+  "authorization": "User explicitly requested complete standalone incorporation of Lime into standard mode; first supplied video is the primary reference.",
+  "sourceLocationsAreProvenanceOnly": true,
+  "videoReferenceRights": "User-supplied local references for this authorized incorporation; no new public redistribution grant inferred.",
+  "originalFrame": {
+    "path": "provenance/FRAME.source.md",
+    "sha256": "4761e6b30906a8e0c9564c6dee53283dcb6bde3b9f55f7fa0db722c36c4ebfce",
+    "role": "historical provenance, not effective project instructions"
+  },
+  "materialSources": [
+    {
+      "file": "mg-style.css",
+      "sourceSha256": "c25ae33c198e30c0fcad2d8fc176882ff28f1dc7d0caf332db6089681922917c",
+      "packSha256": "590680673a301c16cd5fe1580fcab8b8a848d44a00a86840ace3b0c285b166f9",
+      "adaptation": "scene-scoped CSS and bubble/solid materials"
+    },
+    {
+      "file": "glass.js",
+      "sourceSha256": "9296541e202d8e4c184233782a84fbcb4cb0936211bafc6019dc78714a64f326",
+      "packSha256": "9296541e202d8e4c184233782a84fbcb4cb0936211bafc6019dc78714a64f326",
+      "adaptation": "unchanged optical implementation"
+    }
+  ],
+  "references": [
+    {
+      "path": "samples/lime-36.jpg",
+      "sourceId": "lime",
+      "sourcePathAtIntake": "C:\\Users\\buend\\Desktop\\像素造物\\案例与作品\\视频样片\\glass lime.mp4",
+      "sourceSha256": "60e72fb538d6e5fe28c1fcfffd4146610e04607ec369a16a7329026c73b08371",
+      "timeSeconds": 36,
+      "sha256": "f617626fb8bc8c5501171bbea3cff188012dd9f1de5fe3fa6737773ef8e6ce95"
+    },
+    {
+      "path": "samples/lime-42.jpg",
+      "sourceId": "lime",
+      "sourcePathAtIntake": "C:\\Users\\buend\\Desktop\\像素造物\\案例与作品\\视频样片\\glass lime.mp4",
+      "sourceSha256": "60e72fb538d6e5fe28c1fcfffd4146610e04607ec369a16a7329026c73b08371",
+      "timeSeconds": 42,
+      "sha256": "dfb54ddd9e172d376b4c84d0b5c7ca096c5f0e520820fee0608ec2321514e98f"
+    },
+    {
+      "path": "samples/lime-45.jpg",
+      "sourceId": "lime",
+      "sourcePathAtIntake": "C:\\Users\\buend\\Desktop\\像素造物\\案例与作品\\视频样片\\glass lime.mp4",
+      "sourceSha256": "60e72fb538d6e5fe28c1fcfffd4146610e04607ec369a16a7329026c73b08371",
+      "timeSeconds": 45,
+      "sha256": "dd54cdf4687af4bf2f5ac6675321091aa3d4954fd6405c457d2c0ce9697e7eb9"
+    },
+    {
+      "path": "samples/lime-66.jpg",
+      "sourceId": "lime",
+      "sourcePathAtIntake": "C:\\Users\\buend\\Desktop\\像素造物\\案例与作品\\视频样片\\glass lime.mp4",
+      "sourceSha256": "60e72fb538d6e5fe28c1fcfffd4146610e04607ec369a16a7329026c73b08371",
+      "timeSeconds": 66,
+      "sha256": "7ad9b7327652b4f5cbcf6d5d4822867a0cf2273945a5e93b22a585bd1e9a8f11"
+    },
+    {
+      "path": "samples/lime-73.jpg",
+      "sourceId": "lime",
+      "sourcePathAtIntake": "C:\\Users\\buend\\Desktop\\像素造物\\案例与作品\\视频样片\\glass lime.mp4",
+      "sourceSha256": "60e72fb538d6e5fe28c1fcfffd4146610e04607ec369a16a7329026c73b08371",
+      "timeSeconds": 73,
+      "sha256": "ced0c8b0d6e9507ca55ee12af49a6088e18864ebff89f71f45373f1663158295"
+    },
+    {
+      "path": "samples/lime-79.jpg",
+      "sourceId": "lime",
+      "sourcePathAtIntake": "C:\\Users\\buend\\Desktop\\像素造物\\案例与作品\\视频样片\\glass lime.mp4",
+      "sourceSha256": "60e72fb538d6e5fe28c1fcfffd4146610e04607ec369a16a7329026c73b08371",
+      "timeSeconds": 79,
+      "sha256": "8f7b34a1ce7cdd861e23721444cf9a64a9d4ba52807ce59cd424db225dc96322"
+    },
+    {
+      "path": "samples/workbench-64.jpg",
+      "sourceId": "workbench",
+      "sourcePathAtIntake": "C:\\Users\\buend\\Desktop\\mav-works\\mav-content-fac\\3. 发布录制区\\口播编辑台\\xiangsu-lvbaoshi\\film-v3\\renders\\film-v3_2026-10-18_15-17-05.mp4",
+      "sourceSha256": "0a7cef0e0ffe03d1ad2f87943a301dcfc559299265c92e4a52862af68fd1d7c5",
+      "timeSeconds": 64,
+      "sha256": "dfd24450af4e55d508a1e9e2e349c143c7a9d540245ec8659e3a8f0c20d3183e"
+    },
+    {
+      "path": "samples/workbench-78.jpg",
+      "sourceId": "workbench",
+      "sourcePathAtIntake": "C:\\Users\\buend\\Desktop\\mav-works\\mav-content-fac\\3. 发布录制区\\口播编辑台\\xiangsu-lvbaoshi\\film-v3\\renders\\film-v3_2026-10-18_15-17-05.mp4",
+      "sourceSha256": "0a7cef0e0ffe03d1ad2f87943a301dcfc559299265c92e4a52862af68fd1d7c5",
+      "timeSeconds": 78,
+      "sha256": "18726290997d340fffdcce4d3e21343caa12295187224bee2c7dbbee37d2ce69"
+    }
+  ],
+  "publicReleaseRights": "2026-11-07: repository owner confirmed public redistribution authorization for the reference images."
+}

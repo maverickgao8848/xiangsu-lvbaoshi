@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "opencode",
+  "displayName": "终端手册",
+  "revision": "p29.2-motion.1.single.1",
+  "provenance": {
+    "kind": "user_supplied_style_pack",
+    "sourceArchive": null,
+    "sourceDesign": "DESIGN-opencode.ai.md",
+    "sourceDesignSha256": "d1a8893c4b8ac90b1e86230eee2effa8bd15add3582853477920e32432336dda",
+    "originalFrameSha256": "1fb09ca3ecd1752dc69563a9597906328a9b50007db9866ba914c65b5fd0d29f",
+    "license": "not_supplied; user reference image redistribution rights not supplied",
+    "repository": null,
+    "commit": null,
+    "publicReleaseRights": "2026-11-07: repository owner confirmed public redistribution authorization for the reference images."
+  },
+  "selection": {
+    "kind": "planned_style_intake",
+    "roadmapStage": "P29",
+    "historicalCandidate": "recommended_and_user_shortlisted"
+  },
+  "adaptationNotes": [
+    "The effective FRAME is a Chinese knowledge-video adaptation; the source website analysis and earlier video FRAME remain pinned as provenance rather than traveling as parallel rule sources.",
+    "Local DM Mono owns Latin, ASCII, numerals, commands and node IDs; local Noto Sans SC owns Chinese display and explanation, with full-width Chinese aligned to the character-cell grid.",
+    "The warm paper, near-black ink, terminal inversion, hairline relation diagrams, bracketed states and square editorial geometry are retained.",
+    "Website navigation, pricing, forms, scrolling, remote fonts and marketing copy are outside the runtime style contract.",
+    "Motion remains project-specific and follows the shared deterministic motion-direction contract instead of treating the static samples as timing evidence.",
+    "Shared camera, text timing and continuity rules are owned by motion-direction; historical project reviews retain their original scope and do not approve this motion revision."
+  ],
+  "validationScope": {
+    "basis": "P9 same-content candidate is historical input; P29 adds a new-topic standard-mode Chinese build",
+    "transfer": "passed_historical_same_content_candidate",
+    "crossTopic": "passed_new_topic_standard_mode",
+    "productionArtDirection": "approved_new_topic_standard_mode",
+    "userReview": {
+      "verdict": "approved",
+      "date": "2026-09-21",
+      "project": "videos/deleted-file-recovery-p29",
+      "revision": "p29.2",
+      "boundIndexSha256": "ca33e33955b8e513ccf93610e1726041ef9abab52877a4d2c5535b1d8763f47c",
+      "scope": "this new-topic 28-second standard-mode project only"
+    }
+  },
+  "files": [
+    {
+      "path": "FRAME.md",
+      "sha256": "d8aea88b0ef0d18dd491fcb358108ac2dec3b7ecf248eea5f19dd2ebcf6dd32d"
+    },
+    {
+      "path": "samples/sample-01.png",
+      "sha256": "8c264a08111189caadabc6681d6bb3023be3be8eafbbe3108fcd396f7bc4c67e"
+    },
+    {
+      "path": "samples/sample-02.png",
+      "sha256": "3bb5f96f47c755e82d218fa7fbe4416a81504b506fd1b15c520773f2816d6a2e"
+    },
+    {
+      "path": "samples/sample-03.png",
+      "sha256": "250a50084a9e80d62a2dfd7a666629173125e479e6118618ef71d7db5e320f44"
+    },
+    {
+      "path": "samples/sample-04.png",
+      "sha256": "1016e30c9df7a79117a51abcec999e18c9bdc17b176de17339ccfc7bfd3bf078"
+    },
+    {
+      "path": "samples/sample-05.png",
+      "sha256": "6332104245b1f58540466b026f502278c98f10be2cb73034dd21c7fcb9ec40a5"
+    },
+    {
+      "path": "samples/sample-06.png",
+      "sha256": "fdd6432c497190ddb30e83fb2780552adcf3cfd9827c647cb61b2f7a27aa0fe8"
+    },
+    {
+      "path": "samples/sample-07.png",
+      "sha256": "fb7ffe76aff1b41324e82aef940645614f735d937f1301504f568c498e9e1b9f"
+    },
+    {
+      "path": "mechanism-samples/sample-01.png",
+      "sha256": "04fc7625fe52d0018e1748e3a9b438aae99b311523e913a1b4846810e5af2df5"
+    },
+    {
+      "path": "mechanism-samples/sample-02.png",
+      "sha256": "09c16f64c0c1ca076b235f23ca1787b2f50dede28607ee0007ea0f24be046c2d"
+    },
+    {
+      "path": "mechanism-samples/sample-03.png",
+      "sha256": "eda2f331ac4cd8bb6f639d54a572924b7008fcfe9cb01629c7d1f95928f87d63"
+    },
+    {
+      "path": "mechanism-samples/sample-04.png",
+      "sha256": "96a9f53ad9617525e058ad0c4558f91cadfd75a582fe3547e452473506b5ad9a"
+    },
+    {
+      "path": "mechanism-samples/sample-05.png",
+      "sha256": "775df94ded371c7ccb614e3b992fe2e2a526310d71dc4462113d61aa3212b2d3"
+    },
+    {
+      "path": "mechanism-samples/sample-06.png",
+      "sha256": "331ef8f5b0858376cfda5c956b1b5ecaa479427cb32686d286ab71d063323337"
+    },
+    {
+      "path": "mechanism-samples/sample-07.png",
+      "sha256": "a04c71970960a2a930b185f93c7411c2eb6f665b035fa9d05045e55d94b1aa52"
+    }
+  ]
+}

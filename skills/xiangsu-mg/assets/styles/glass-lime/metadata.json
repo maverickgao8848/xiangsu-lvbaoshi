@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "id": "glass-lime",
+  "displayName": "青柠玻璃",
+  "aliases": [
+    "Lime",
+    "Glass Lime",
+    "青柠玻璃"
+  ],
+  "revision": "standard-standalone.1.single.1.selection.2",
+  "provenance": {
+    "kind": "user_authorized_local_style_incorporation",
+    "record": "provenance/sources.json",
+    "license": "Preserve existing Skill license and individual font notices; local video reference rights are recorded separately.",
+    "publicReleaseRights": "2026-11-07: repository owner confirmed public redistribution authorization for the reference images."
+  },
+  "runtimeDependencies": [],
+  "adaptationNotes": [
+    "Runtime, three full fonts, notices, references and scene recipes are installed inside this pack; no editorial Skill is read at application or render time.",
+    "The effective FRAME retains MG material and choreography; the entire historical source FRAME is preserved separately as provenance.",
+    "Historical glass-lime-extracted IDs and frozen projects are not migrated or overwritten."
+  ],
+  "validationScope": {
+    "referenceStudy": "User preferred the supplied first video; continuous keyframe sampling and existing second-video standard-mode records informed the recipes.",
+    "portability": "Passed isolated application/inheritance and browser font/material checks; see provenance/verification.json. This does not assert artistic approval.",
+    "newTopicArtDirection": "not_reviewed",
+    "reusableMotionComponents": "Recipes are reference-grounded authoring guidance, not newly validated relationship components."
+  },
+  "frameResources": [
+    "fonts/Montserrat-OFL.txt",
+    "fonts/montserrat.ttf",
+    "fonts/Noto-OFL.txt",
+    "fonts/noto.ttf",
+    "fonts/OPPO-License.txt",
+    "fonts/oppo.ttf",
+    "provenance/FRAME.source.md",
+    "provenance/sources.json",
+    "provenance/upstream-source.json",
+    "provenance/verification.json",
+    "recipes.md",
+    "runtime/glass.js",
+    "runtime/mg-style.css",
+    "samples/lime-36.jpg",
+    "samples/lime-42.jpg",
+    "samples/lime-45.jpg",
+    "samples/lime-66.jpg",
+    "samples/lime-73.jpg",
+    "samples/lime-79.jpg",
+    "samples/workbench-64.jpg",
+    "samples/workbench-78.jpg"
+  ],
+  "files": [
+    {
+      "path": "fonts/Montserrat-OFL.txt",
+      "sha256": "8b7141c03fa4f8d44e6345d5d4931709290f0f67875e452e95ac1fd3a027802e"
+    },
+    {
+      "path": "fonts/montserrat.ttf",
+      "sha256": "0f7b311b2f3279e4eef9b2f968bcdbab6e28f4daeb1f049f4f278a902bcd82f7"
+    },
+    {
+      "path": "fonts/Noto-OFL.txt",
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "path": "fonts/noto.ttf",
+      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+    },
+    {
+      "path": "fonts/OPPO-License.txt",
+      "sha256": "b013f80fa2fa6f6db4a31b793676f787af78263b568088a2d896e9d9b3e5fde7"
+    },
+    {
+      "path": "fonts/oppo.ttf",
+      "sha256": "6c7d5864c661516e1f400d9f21e4297f2e2a0719909691e29607cc4ef484a9f4"
+    },
+    {
+      "path": "FRAME.md",
+      "sha256": "8f83eabe9d73a060b192f405012848d155dbd3c25279603f0ab2d155928c306e"
+    },
+    {
+      "path": "provenance/FRAME.source.md",
+      "sha256": "4761e6b30906a8e0c9564c6dee53283dcb6bde3b9f55f7fa0db722c36c4ebfce"
+    },
+    {
+      "path": "provenance/sources.json",
+      "sha256": "ef2e058b3b0fb30d26e722957e1352ee3f394b55eeb72dc8c1198dacd3006e44"
+    },
+    {
+      "path": "provenance/upstream-source.json",
+      "sha256": "8c2fd43882ef59ac5b3cc9223540f4f88d24e76472954f38b3d9532a5ba382bd"
+    },
+    {
+      "path": "provenance/verification.json",
+      "sha256": "d4a591114451536329a109643b14d4cc0d8625de2382ef51bd2bf5382a004596"
+    },
+    {
+      "path": "recipes.md",
+      "sha256": "d8a289c90b2120c9d59f4e0ea430ba991243c9fd5ea7bc1b9019db5a5afa017d"
+    },
+    {
+      "path": "runtime/glass.js",
+      "sha256": "9296541e202d8e4c184233782a84fbcb4cb0936211bafc6019dc78714a64f326"
+    },
+    {
+      "path": "runtime/mg-style.css",
+      "sha256": "590680673a301c16cd5fe1580fcab8b8a848d44a00a86840ace3b0c285b166f9"
+    },
+    {
+      "path": "samples/lime-36.jpg",
+      "sha256": "f617626fb8bc8c5501171bbea3cff188012dd9f1de5fe3fa6737773ef8e6ce95"
+    },
+    {
+      "path": "samples/lime-42.jpg",
+      "sha256": "dfb54ddd9e172d376b4c84d0b5c7ca096c5f0e520820fee0608ec2321514e98f"
+    },
+    {
+      "path": "samples/lime-45.jpg",
+      "sha256": "dd54cdf4687af4bf2f5ac6675321091aa3d4954fd6405c457d2c0ce9697e7eb9"
+    },
+    {
+      "path": "samples/lime-66.jpg",
+      "sha256": "7ad9b7327652b4f5cbcf6d5d4822867a0cf2273945a5e93b22a585bd1e9a8f11"
+    },
+    {
+      "path": "samples/lime-73.jpg",
+      "sha256": "ced0c8b0d6e9507ca55ee12af49a6088e18864ebff89f71f45373f1663158295"
+    },
+    {
+      "path": "samples/lime-79.jpg",
+      "sha256": "8f7b34a1ce7cdd861e23721444cf9a64a9d4ba52807ce59cd424db225dc96322"
+    },
+    {
+      "path": "samples/workbench-64.jpg",
+      "sha256": "dfd24450af4e55d508a1e9e2e349c143c7a9d540245ec8659e3a8f0c20d3183e"
+    },
+    {
+      "path": "samples/workbench-78.jpg",
+      "sha256": "18726290997d340fffdcce4d3e21343caa12295187224bee2c7dbbee37d2ce69"
+    }
+  ]
+}
