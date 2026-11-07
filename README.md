@@ -9,20 +9,24 @@
 | [像素·绿宝石](skills/xiangsu-lvbaoshi/SKILL.md) | 真人口播的整片编排、模板、玻璃材质、转场、字幕和动画交接 |
 | [像素 MG](skills/xiangsu-mg/SKILL.md) | 把流程、关系、比较和机制做成可编辑的知识动画 |
 
-<details>
-<summary>查看视觉参考</summary>
+## 画面能做成什么样
 
-玻璃与气泡的材质参考：
+下面六张截图来自「Glass Lime」实际视频，保留原片的 1920×1080 分辨率。展示的是章节、真人口播包装和 MG 动画中的不同画面；实际内容和编排由每期视频决定。
 
-![玻璃气泡参考](skills/xiangsu-lvbaoshi/references/images/ref-11-glass-bubble.png)
-
-像素 MG 的青柠玻璃空间参考：
-
-![像素 MG 青柠玻璃空间参考](skills/xiangsu-mg/assets/styles/glass-lime/samples/lime-73.jpg)
-
-这些图片用于说明视觉方向；实际成片以自己的输入和审看结果为准。
-
-</details>
+<table>
+<tr>
+<td width="50%"><img src="docs/showcase/01-chapter.png" alt="章节封面：黑色点阵背景与荧光绿章节编号"><br><b>章节封面</b><br>章节编号与标题，让长视频的结构清晰可见。</td>
+<td width="50%"><img src="docs/showcase/02-keywords.png" alt="口播重点字：真人画面旁的关键词与白色物件"><br><b>口播重点字</b><br>关键词、标记和白色物件配合真人讲述。</td>
+</tr>
+<tr>
+<td><img src="docs/showcase/03-glass-card.png" alt="口播特效：真人画面旁的玻璃信息卡和机器人物件"><br><b>玻璃信息卡</b><br>在保留真人画面的同时展示信息和伴随物件。</td>
+<td><img src="docs/showcase/04-evidence-highlight.png" alt="素材阅读：深色页面上的段落和荧光绿重点高亮"><br><b>素材阅读与高亮</b><br>呈现文字材料，并突出讲解所需的信息。</td>
+</tr>
+<tr>
+<td><img src="docs/showcase/05-workflow-mg.png" alt="MG 流程动画：模板、素材、动画和成片四个工作站"><br><b>MG 流程动画</b><br>用工作站、对象和路径解释完整流程。</td>
+<td><img src="docs/showcase/06-spatial-mg.png" alt="MG 空间动画：玻璃卡片在空间中展开"><br><b>MG 空间展开</b><br>让画面、重点和动作沿空间路径展开。</td>
+</tr>
+</table>
 
 ## 第一次使用
 
