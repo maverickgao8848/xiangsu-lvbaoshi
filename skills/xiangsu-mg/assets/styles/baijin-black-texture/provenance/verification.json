@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-20",
+  "scope": "Standalone standard-mode Baijin style integration; no new-topic production or artistic approval.",
+  "tests": {
+    "total": 11,
+    "passed": 11,
+    "scope": "Baijin/Lime application and preflight, portability/child inheritance, legacy-style and upstream inheritance regression"
+  },
+  "browser": {
+    "checks": [
+      "original source function/CSS preserved",
+      "source/new renderer pixel equality after explicit source initialization",
+      "local fonts actually rendered",
+      "deterministic seeded grain",
+      "first-frame and reverse-seek-zero equality",
+      "same timeline sheen forward/reverse seeks",
+      "fixed background outside camera world",
+      "scene-scoped typography",
+      "unrecolored transparent Pixel2All object"
+    ],
+    "fonts": {
+      "title": [
+        {
+          "familyName": "Chiron Sung HK",
+          "postScriptName": "ChironSungHK-Bold",
+          "isCustomFont": true,
+          "glyphCount": 9
+        }
+      ],
+      "body": [
+        {
+          "familyName": "OPPO Sans 4.0",
+          "postScriptName": "OPPO-Sans-4.0-Regular",
+          "isCustomFont": true,
+          "glyphCount": 21
+        }
+      ],
+      "label": [
+        {
+          "familyName": "Chiron Sung HK",
+          "postScriptName": "ChironSungHK-Bold",
+          "isCustomFont": true,
+          "glyphCount": 6
+        }
+      ]
+    },
+    "sourceRendererPixelEquality": {
+      "start": true,
+      "end": true,
+      "backgroundOnly": true,
+      "initialization": "Source baseline is initialized by seeking forward then back to zero; the standalone adapter initializes this same state directly."
+    },
+    "object": {
+      "sourceId": "pixel2all",
+      "id": "ceramic-gear-normal",
+      "sha256": "b7303b7462eb07df8f5c10225ddbe6ad46b6d35176a5e1c3396c325f202c3e41",
+      "fixtureOnly": true,
+      "originalBundled": false
+    }
+  },
+  "testedFiles": [
+    {
+      "path": "FRAME.md",
+      "sha256": "75bb25b3948e47d34c04d6bb81b90e651ab0d13ff2eac2a4b34ed64559f9babb"
+    },
+    {
+      "path": "runtime/black-texture.js",
+      "sha256": "99765c8ee2670a8ecf763d6dc5d9c3932fcc1a195f87a5ece498a6f279ef58b0"
+    },
+    {
+      "path": "runtime/black-texture.css",
+      "sha256": "dbf71964909583a240a0d5977e196542fa8a68df2732a79653c1223b97058893"
+    },
+    {
+      "path": "runtime/theme.css",
+      "sha256": "599cd1675e3b8f5ab35ccb2efff497f720b2caf3e4113eb1e7692b444a11dd67"
+    },
+    {
+      "path": "fonts/sung-bold.ttf",
+      "sha256": "b8eda8aa9affeac49ad69665b8b43ad2c472124a18d6bd2ba2d3b9ffa3f44351"
+    },
+    {
+      "path": "fonts/oppo.ttf",
+      "sha256": "6c7d5864c661516e1f400d9f21e4297f2e2a0719909691e29607cc4ef484a9f4"
+    }
+  ],
+  "sampleSha256": {
+    "material-end.png": "84591fe14ad08a09fa5e61faeb82149b218a9817a94e894cda13869effc67be2",
+    "material-start.png": "e85bcbe46ed264bff3769742cf2a177c07cf21ea10d0a3309d6ba2089cb09bd0",
+    "texture.png": "5115cea3f4f789eb6c982032f7f5482140df1587c83e2514a261e10bd44164b9"
+  },
+  "artDirection": "not_reviewed"
+}

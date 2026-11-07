@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "id": "baijin-black-texture",
+  "displayName": "白金黑纹理",
+  "aliases": [
+    "白金",
+    "Xiangsu Baijin",
+    "黑色纹理",
+    "白金黑纹理"
+  ],
+  "revision": "standard-standalone.1.single.1",
+  "provenance": {
+    "kind": "user_authorized_local_frame_incorporation",
+    "record": "provenance/sources.json",
+    "license": "Preserve existing Skill license, Chiron Sung HK OFL and OPPO font license; reference assets retain their source scope."
+  },
+  "runtimeDependencies": [],
+  "adaptationNotes": [
+    "Standalone original procedural texture function/CSS, local fonts, source-derived scoped theme, panel grain and explicit image-backup.",
+    "The scene supplies its existing GSAP-compatible timeline; no independent clock or editorial Skill is needed.",
+    "Objects use the shared Pixel2All search/staging/evidence contract; original object files are not bundled.",
+    "The historical mav-editorial-black-texture inherited identity is preserved, and the source editorial Skill is untouched."
+  ],
+  "validationScope": {
+    "portability": "Passed MG-only application, relocation/inheritance and browser checks; see provenance/verification.json. Not new-topic artistic approval.",
+    "artDirection": "not_reviewed",
+    "sceneConstruction": "Uses the shared MG motion contract; no fixed fallback choreography or new validated relationship components are added."
+  },
+  "frameResources": [
+    "fonts/OPPO-License.txt",
+    "fonts/oppo.ttf",
+    "fonts/sung-bold.ttf",
+    "fonts/Sung-OFL.txt",
+    "provenance/black-background.function.js.txt",
+    "provenance/black-texture.source.css",
+    "provenance/FRAME.source.md",
+    "provenance/reference-a.preset.json",
+    "provenance/reference-a.source.css",
+    "provenance/sources.json",
+    "provenance/verification.json",
+    "runtime/black-texture.css",
+    "runtime/black-texture.js",
+    "runtime/theme.css",
+    "samples/material-end.png",
+    "samples/material-start.png",
+    "samples/texture.png",
+    "textures/black-satin-metal-v1.png",
+    "textures/grain.png"
+  ],
+  "files": [
+    {
+      "path": "fonts/OPPO-License.txt",
+      "sha256": "b013f80fa2fa6f6db4a31b793676f787af78263b568088a2d896e9d9b3e5fde7"
+    },
+    {
+      "path": "fonts/oppo.ttf",
+      "sha256": "6c7d5864c661516e1f400d9f21e4297f2e2a0719909691e29607cc4ef484a9f4"
+    },
+    {
+      "path": "fonts/sung-bold.ttf",
+      "sha256": "b8eda8aa9affeac49ad69665b8b43ad2c472124a18d6bd2ba2d3b9ffa3f44351"
+    },
+    {
+      "path": "fonts/Sung-OFL.txt",
+      "sha256": "f610abd1c4f410c07fe99e6be924a500e577a378b182a73c691527e2e368c96f"
+    },
+    {
+      "path": "FRAME.md",
+      "sha256": "125ab29a9493490d57a79fa2ca94875a23f70f6dc62536a3b050c5175b64116d"
+    },
+    {
+      "path": "provenance/black-background.function.js.txt",
+      "sha256": "7edc8d62d6cdc874ef28aa152fee4d4b0fab44207c1fdf5c55629a2d12c96713"
+    },
+    {
+      "path": "provenance/black-texture.source.css",
+      "sha256": "dbf71964909583a240a0d5977e196542fa8a68df2732a79653c1223b97058893"
+    },
+    {
+      "path": "provenance/FRAME.source.md",
+      "sha256": "7db7646688d1d9f6185c203d053322c2d6b36d1cbc4429a3a5e1bb5440080100"
+    },
+    {
+      "path": "provenance/reference-a.preset.json",
+      "sha256": "13e9b85bc12099e2f9ee64f25f1b52c5068980c308617b182b935aea9c1f5e9f"
+    },
+    {
+      "path": "provenance/reference-a.source.css",
+      "sha256": "1de9c8b986ec0162c445bc832c4dc771364c3bbbcbf93b3339e45ab83d92379c"
+    },
+    {
+      "path": "provenance/sources.json",
+      "sha256": "42d85ec9c2c53b9d28c11b8dece024165cd9a074440674b6d531ec22a8de87d2"
+    },
+    {
+      "path": "provenance/verification.json",
+      "sha256": "fcaa544316c9c0762c3953e436c099bbec9a4fdea9561c3013da9b3e0f679933"
+    },
+    {
+      "path": "runtime/black-texture.css",
+      "sha256": "dbf71964909583a240a0d5977e196542fa8a68df2732a79653c1223b97058893"
+    },
+    {
+      "path": "runtime/black-texture.js",
+      "sha256": "99765c8ee2670a8ecf763d6dc5d9c3932fcc1a195f87a5ece498a6f279ef58b0"
+    },
+    {
+      "path": "runtime/theme.css",
+      "sha256": "599cd1675e3b8f5ab35ccb2efff497f720b2caf3e4113eb1e7692b444a11dd67"
+    },
+    {
+      "path": "samples/material-end.png",
+      "sha256": "84591fe14ad08a09fa5e61faeb82149b218a9817a94e894cda13869effc67be2"
+    },
+    {
+      "path": "samples/material-start.png",
+      "sha256": "e85bcbe46ed264bff3769742cf2a177c07cf21ea10d0a3309d6ba2089cb09bd0"
+    },
+    {
+      "path": "samples/texture.png",
+      "sha256": "5115cea3f4f789eb6c982032f7f5482140df1587c83e2514a261e10bd44164b9"
+    },
+    {
+      "path": "textures/black-satin-metal-v1.png",
+      "sha256": "ec4805e8914a293860a156ce6be2964aeb92a5658ce0ad6c9cccc9db4ccb8a7c"
+    },
+    {
+      "path": "textures/grain.png",
+      "sha256": "37beb5c3b505c4398f494c83d55ded2227dfc0d705f9f6bedb791d786cbf3dc2"
+    }
+  ],
+  "samples": [
+    {
+      "path": "samples/material-start.png",
+      "role": "implementation_probe",
+      "timeSeconds": 0
+    },
+    {
+      "path": "samples/material-end.png",
+      "role": "implementation_probe",
+      "timeSeconds": 6
+    },
+    {
+      "path": "samples/texture.png",
+      "role": "implementation_probe",
+      "timeSeconds": 0
+    }
+  ]
+}

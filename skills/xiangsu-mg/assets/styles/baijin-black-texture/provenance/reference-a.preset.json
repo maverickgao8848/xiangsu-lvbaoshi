@@ -1,0 +1,16 @@
+{
+  "version": "reference-a/v1",
+  "titleSize": 104,
+  "titleWidthScale": 0.74,
+  "glow": 0.085,
+  "texture": 0.045,
+  "referenceURL": "https://www.douyin.com/video/7690102800625224969",
+  "referenceTimesSec": [
+    68,
+    132,
+    148,
+    376,
+    404
+  ],
+  "approval": "User approved corrected A on 2026-10-03; no current-project export approval implied."
+}

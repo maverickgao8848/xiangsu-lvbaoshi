@@ -1,0 +1,10 @@
+  function blackBackground(root,tl,duration){
+    const layer=document.createElement('div');layer.className='mav-black-texture';
+    layer.innerHTML='<div class="mbt-ridges"></div><div class="mbt-sheen" data-layout-allow-overflow></div><canvas class="mbt-grain" width="512" height="288"></canvas>';
+    root.prepend(layer);
+    const canvas=layer.querySelector('canvas'),ctx=canvas.getContext('2d'),pixels=ctx.createImageData(512,288);let seed=7419;
+    for(let i=0;i<pixels.data.length;i+=4){seed=(Math.imul(seed,1664525)+1013904223)>>>0;const value=seed>>>24;pixels.data[i]=pixels.data[i+1]=pixels.data[i+2]=value;pixels.data[i+3]=255;}ctx.putImageData(pixels,0,0);
+    // The moving light and seeded grain share the scene timeline; no independent clock.
+    tl.fromTo(layer.querySelector('.mbt-sheen'),{xPercent:-12,opacity:.34},{xPercent:12,opacity:.5,duration,ease:'sine.inOut',immediateRender:false},0);
+    return layer;
+  }

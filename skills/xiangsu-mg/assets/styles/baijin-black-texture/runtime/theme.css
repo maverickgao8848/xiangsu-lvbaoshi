@@ -1,0 +1,17 @@
+/* MG roles generated from the frozen Reference A source, scoped to this preset. */
+@font-face{font-family:BaijinSung;src:url('../fonts/sung-bold.ttf');font-weight:700;font-style:normal;font-display:block}
+@font-face{font-family:BaijinSans;src:url('../fonts/oppo.ttf');font-weight:100 900;font-style:normal;font-display:block}
+.baijin-scene{position:relative;overflow:hidden;isolation:isolate;background:#08090a;font-family:BaijinSans,sans-serif;font-weight:400;color:var(--bj-body);--bj-title:#f3f1df;--bj-body:#dddeda;--bj-reading:#cdcfcc;--bj-muted:#adafac;--bj-accent:#e0d990;--bj-rim:#e0d88f;--bj-label-ink:#1c1d1c;--bj-label-fill:#f0e99d}
+.baijin-scene .bj-world{position:relative;z-index:1}
+.baijin-scene .bj-title,.baijin-scene h1,.baijin-scene h2,.baijin-scene h3{font-family:BaijinSung,serif;font-weight:700;color:var(--bj-title)}
+.baijin-scene .bj-body,.baijin-scene .bj-caption{font-family:BaijinSans,sans-serif;font-weight:400;color:var(--bj-body)}
+.baijin-scene .bj-reading-text{color:var(--bj-reading)}
+.baijin-scene .bj-muted{color:var(--bj-muted)}
+.baijin-scene .bj-accent,.baijin-scene .bj-number{color:var(--bj-accent)}
+.baijin-scene .bj-line{background:var(--bj-accent)}
+.baijin-scene .bj-path{stroke:var(--bj-rim);fill:none}
+.baijin-scene .bj-window{border:1.5px solid #464748;border-color:#333537;box-shadow:0 24px 68px #0008,inset 0 1px 0 #ffffff06;border-radius:24px;overflow:hidden;background:linear-gradient(165deg,#1b1c1e,#111214)}
+.baijin-scene .bj-reading{position:relative;background:#1a1b1df8;background-image:linear-gradient(145deg,#25262933,transparent 65%);border:1px solid #3d3f41;box-shadow:inset 0 1px 0 #ffffff09,0 22px 50px #0008;overflow:hidden;border-radius:23px}
+.baijin-scene .bj-reading:before{content:"";position:absolute;inset:0;pointer-events:none;background-image:url('../textures/grain.png');opacity:.045}
+.baijin-scene .bj-reading>*{position:relative;z-index:1}
+.baijin-scene .bj-label{color:#1c1d1c;background:#f0e99d;border:1px solid #e8e195;box-shadow:0 0 16px #e7df8e20;font-weight:600;font-size:25px;padding:10px 20px;border-radius:40px}
