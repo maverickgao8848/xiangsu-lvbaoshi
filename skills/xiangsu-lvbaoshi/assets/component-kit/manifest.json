@@ -1,0 +1,27 @@
+{
+  "sceneKit": "cb61ca1f6347aa0b6e3c166802afe42eedbd2605",
+  "interfaces": [
+    "S01",
+    "S03",
+    "S12"
+  ],
+  "hashes": {
+    "fonts/Inter-400.woff2": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc",
+    "fonts/Inter-700.woff2": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491",
+    "fonts/JetBrainsMono-400.woff2": "14425ba9c695763c1547f48a206b7aa60350a33ae23de09f0407877f3fcd89eb",
+    "fonts/JetBrainsMono-700.woff2": "d0d4e818808f2a0ba39b2b09d1989366f63494e295f003c7ef436697378507e8",
+    "fonts/LICENSE-Inter.txt": "3b0a5fca3d17942cde889069889dedbbbd075e9b599968c82a95f4d944e9b345",
+    "fonts/LICENSE-JetBrainsMono.txt": "403581b69dac5cff4079205e01c6b467e56af449ecbd7247693ddb1baafa005b",
+    "prepare.mjs": "052bd3f42ce67356ce122e840b9fb76205bf14cc0d5e181aa1e4a9855e83ca84",
+    "SCENE-LICENSE": "551ab8bbca0bcd4dc24b5a445205c5270b6eb7bec6af77c817d68b26796bccbc",
+    "scene-licenses/hyperframes.txt": "4259155fb06f127687ee7b0a8a3682d45132db0f2da26cbc0b7a2d1e796436b8",
+    "scene-licenses/lucide.txt": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57",
+    "scene-licenses/noto-sans-sc.txt": "18aabf190848725e2576eefb5c29ba06aac1029d02132252a7f312eac2e50cf3",
+    "SCENE-THIRD-PARTY-NOTICES.json": "89a0b5f8a9b88a9052a190faeaf8d27563448ab758efb5f2cb27630b949f8d4b",
+    "scene.css": "e373158efdda986a8ce2b50ab98bd6c0b0986b311ecca3bc947f4886c6bc1447"
+  },
+  "glassLimeAdapter": {
+    "upstreamSceneCssSha256": "ac37c7d9b46c16cda6b763c70b45d83150ce279cd4c26fe9147539885cec459b",
+    "change": "Local aliases for JetBrains Mono; inactive serif token maps to bundled numeric family. S01/S03/S12 neutral interface colors and layout preserved."
+  }
+}

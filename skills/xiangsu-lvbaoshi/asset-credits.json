@@ -1,0 +1,406 @@
+{
+  "files": [
+    {
+      "path": "assets/base.js",
+      "source": "samples/assets/base.js",
+      "sha256": "5ef0fa876754f9147f5d5f011bfb00f19a235ff790e3666fd2129b0bc5851bca"
+    },
+    {
+      "path": "assets/focus.js",
+      "source": "samples/assets/focus.js",
+      "sha256": "d091faa73d55315d7a3674fd58ce8481da3e205b90531e5ccc44f295632e1ab0"
+    },
+    {
+      "path": "assets/flow.js",
+      "source": "samples/assets/flow.js",
+      "sha256": "49c4424ff91f8b1647e280ecb681a1f644ead29286c1bed4f60cfeac034e9899"
+    },
+    {
+      "path": "assets/extra.js",
+      "source": "samples/assets/extra.js",
+      "sha256": "01fb6bfe3b91a8e773bf78b7ea5ed9f65002d1b719ef1a721cb080dc253923aa"
+    },
+    {
+      "path": "assets/material.js",
+      "source": "samples/assets/material.js",
+      "sha256": "4d9f9f659b6dad755e8092efe654c1394806aca7505e82c2cec12e876058ed0d"
+    },
+    {
+      "path": "assets/material-regions.js",
+      "source": "samples/assets/material-regions.js",
+      "sha256": "db865161ec145188d878d4bcdbe064f2d476a7df0de7c4d573b82e437585c6b7"
+    },
+    {
+      "path": "assets/glass.js",
+      "source": "samples/assets/glass.js",
+      "sha256": "9296541e202d8e4c184233782a84fbcb4cb0936211bafc6019dc78714a64f326"
+    },
+    {
+      "path": "assets/envelope.js",
+      "source": "samples/assets/envelope.js",
+      "sha256": "ba323d2efa15951d9cb56b458ae44269129a9fdf71c0803f6870c2418a12f9c5"
+    },
+    {
+      "path": "assets/runtime.js",
+      "source": "samples/assets/runtime.js",
+      "sha256": "addc92543ea2442c9d60aa68ffbbc53e1e84c31f0cd3c38ccc0b141d88c5de51"
+    },
+    {
+      "path": "assets/preview.js",
+      "source": "samples/assets/preview.js",
+      "sha256": "ea7306acec19262b346640607d0b4c7572632dda5f301a1da1ab69147bc2073d"
+    },
+    {
+      "path": "assets/sound.js",
+      "source": "samples/assets/sound.js",
+      "sha256": "9d30e8edcef5bc24c29ff2d12ddfd11a62d877fd48094d02fe9e21a4483ba627"
+    },
+    {
+      "path": "assets/editorial.js",
+      "source": "samples/assets/editorial.js",
+      "sha256": "b1d3c2176cf0558d3e94935b3125ccf40e98b848fdc2dd3234eff8fb356c4da6"
+    },
+    {
+      "path": "assets/production.js",
+      "source": "samples/assets/production.js",
+      "sha256": "a579b98c30bc3cfe11900e963c9a414ba59c92c5572e59a31e37b20221a0cefe"
+    },
+    {
+      "path": "assets/common.css",
+      "source": "samples/assets/common.css",
+      "sha256": "0a91b013f2758f4fcd3edccc00f6af2e9cf04a7aa549261dbab3f23bc476f98e"
+    },
+    {
+      "path": "assets/focus.css",
+      "source": "samples/assets/focus.css",
+      "sha256": "37ccc24aec4d7788279b95fb597d8bf212aeee55d2c7d1565698269ba84057fb"
+    },
+    {
+      "path": "assets/flow.css",
+      "source": "samples/assets/flow.css",
+      "sha256": "1a9d4bf1eece1ad438f75950afd8db8c0eab6c47d0d3be5e901fb304e4ca925a"
+    },
+    {
+      "path": "assets/extra.css",
+      "source": "samples/assets/extra.css",
+      "sha256": "ede5299a6ff5d3110e11b5ff71b93c24dab7c975de37c9f97fd7ac70778275e9"
+    },
+    {
+      "path": "assets/material.css",
+      "source": "samples/assets/material.css",
+      "sha256": "adb76b081044bd0750d82b82623b1801a99c92d19794253a399455949d23315c"
+    },
+    {
+      "path": "assets/envelope.css",
+      "source": "samples/assets/envelope.css",
+      "sha256": "984ec2fb89979e9352e22391e9c3136b82710108ba25d697a1747ad17e72f252"
+    },
+    {
+      "path": "assets/production.css",
+      "source": "samples/assets/production.css",
+      "sha256": "5677a4eca629b057dd02e24f81596d01a0408f3b832706e32d23d5252087b8f5"
+    },
+    {
+      "path": "assets/gsap.min.js",
+      "source": "samples/assets/gsap.min.js",
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+    },
+    {
+      "path": "assets/host.jpg",
+      "source": "Original illustrative placeholder generated for public release",
+      "sha256": "d5dd19324217db8c8baeadc7b29d35b12a0953358c5ce7ee80a2803fe66e9f1b"
+    },
+    {
+      "path": "assets/material-source.html",
+      "source": "samples/assets/material-source.html",
+      "sha256": "874ca6ee2112d8f53a773b03d5f3e6d8b84128d77832ee83f7033082176792d7"
+    },
+    {
+      "path": "assets/material-source.png",
+      "source": "samples/assets/material-source.png",
+      "sha256": "f9bb4f13e8b991a2eeadc8e3e517ce803130b43c494f8034e85b8be91fb57597"
+    },
+    {
+      "path": "assets/material-regions.json",
+      "source": "samples/assets/material-regions.json",
+      "sha256": "3a7f06e5f88c2baa2f9d8fb8e2ce25b3ac35467df46f751330dd9faa8169b311"
+    },
+    {
+      "path": "assets/fonts/Montserrat-OFL.txt",
+      "source": "samples/assets/fonts/Montserrat-OFL.txt",
+      "sha256": "8b7141c03fa4f8d44e6345d5d4931709290f0f67875e452e95ac1fd3a027802e"
+    },
+    {
+      "path": "assets/fonts/montserrat.ttf",
+      "source": "samples/assets/fonts/montserrat.ttf",
+      "sha256": "0f7b311b2f3279e4eef9b2f968bcdbab6e28f4daeb1f049f4f278a902bcd82f7"
+    },
+    {
+      "path": "assets/fonts/Noto-OFL.txt",
+      "source": "samples/assets/fonts/Noto-OFL.txt",
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "path": "assets/fonts/noto.ttf",
+      "source": "samples/assets/fonts/noto.ttf",
+      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+    },
+    {
+      "path": "assets/fonts/OPPO-License.txt",
+      "source": "samples/assets/fonts/OPPO-License.txt",
+      "sha256": "b013f80fa2fa6f6db4a31b793676f787af78263b568088a2d896e9d9b3e5fde7"
+    },
+    {
+      "path": "assets/fonts/oppo.ttf",
+      "source": "samples/assets/fonts/oppo.ttf",
+      "sha256": "6c7d5864c661516e1f400d9f21e4297f2e2a0719909691e29607cc4ef484a9f4"
+    },
+    {
+      "path": "assets/fonts/Reference-Roboto-OFL.txt",
+      "source": "samples/assets/fonts/Reference-Roboto-OFL.txt",
+      "sha256": "061402327a96aadb0bfb694a960ed289ecd38d383e396243831ab81feb109c41"
+    },
+    {
+      "path": "assets/fonts/reference-roboto.ttf",
+      "source": "samples/assets/fonts/reference-roboto.ttf",
+      "sha256": "d7598e12c5dbef095ff8272cfc55da0250bd07fbdecbac8a530b9b277872a134"
+    },
+    {
+      "path": "assets/sfx/camera-source.json",
+      "source": "samples/assets/sfx/camera-source.json",
+      "sha256": "356a2748d92c61b145b5aeec4f158a47b88442ddc5d435814b11a8089c7672cc"
+    },
+    {
+      "path": "assets/sfx/camera.wav",
+      "source": "samples/assets/sfx/camera.wav",
+      "sha256": "b6275177f23560cb0f310c89c16e457f1310952c2b6a1671391e0e25e5752a96"
+    },
+    {
+      "path": "assets/sfx/click-soft.mp3",
+      "source": "Original synthesized sound for public release",
+      "sha256": "175192bc866576566a3b61b7b0bcbd82cb6f7311f85fb22edac3cd601871c521"
+    },
+    {
+      "path": "assets/sfx/CREDITS.md",
+      "source": "Open-source release sound credits",
+      "sha256": "b1cae57682050f8687844bb451062123b387b9944ce13f158b9c0514c6aa267b"
+    },
+    {
+      "path": "assets/sfx/ping.mp3",
+      "source": "Original synthesized sound for public release",
+      "sha256": "4ba01daafcfc3d49dedf34b9c20a6ca1409b4e8c045e8105b8ccbd938bfb9d51"
+    },
+    {
+      "path": "assets/sfx/pop.mp3",
+      "source": "Original synthesized sound for public release",
+      "sha256": "2da3bb4059047ce50ff0a1c093ff653f8d853723ab5abad659d4f4258a664358"
+    },
+    {
+      "path": "assets/sfx/whoosh-short.mp3",
+      "source": "Original synthesized sound for public release",
+      "sha256": "45945aa34c57fa2f170bed67072df2111f27eef7a16e7e01ad765db21ac346fa"
+    },
+    {
+      "path": "assets/signatures/catalog.js",
+      "source": "samples/assets/signatures/catalog.js",
+      "sha256": "bc6df4511f9030df451f943bd6d05a0fb4dac79acc55d6fc858b3aaeba074f01"
+    },
+    {
+      "path": "assets/signatures/catalog.json",
+      "source": "samples/assets/signatures/catalog.json",
+      "sha256": "e78966f7d934160fe12a7389dad4cfc68359933fe5f0a918038897ccb761b2d1"
+    },
+    {
+      "path": "assets/signatures/original-motion.js",
+      "source": "samples/assets/signatures/original-motion.js",
+      "sha256": "f61bbe608cb5733b523fcbf174d71ced5a8672dca64c0919936deaf8445a56c0"
+    },
+    {
+      "path": "assets/signatures/source-credits.json",
+      "source": "samples/assets/signatures/source-credits.json",
+      "sha256": "4d342b10f8372c3bb0699a6f5b84c4cfefeffed0fe0ecff3fd7c93eed061edc9"
+    },
+    {
+      "path": "assets/host-edge-shadow/preset.json",
+      "source": "samples/assets/host-edge-shadow/preset.json",
+      "sha256": "18644702aecc69f8e166c7691afc9eb491a95e16d19d9377edab9a6f1315c936"
+    },
+    {
+      "path": "assets/host-edge-shadow/soft-edge-v1.png",
+      "source": "samples/assets/host-edge-shadow/soft-edge-v1.png",
+      "sha256": "de7635c83de0c0823ec3d123a22c4c4369924e3450af85fa7167cd879260c3a7"
+    },
+    {
+      "path": "assets/component-kit/fonts/Inter-400.woff2",
+      "source": "samples/assets/component-kit/fonts/Inter-400.woff2",
+      "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc"
+    },
+    {
+      "path": "assets/component-kit/fonts/Inter-700.woff2",
+      "source": "samples/assets/component-kit/fonts/Inter-700.woff2",
+      "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491"
+    },
+    {
+      "path": "assets/component-kit/fonts/JetBrainsMono-400.woff2",
+      "source": "samples/assets/component-kit/fonts/JetBrainsMono-400.woff2",
+      "sha256": "14425ba9c695763c1547f48a206b7aa60350a33ae23de09f0407877f3fcd89eb"
+    },
+    {
+      "path": "assets/component-kit/fonts/JetBrainsMono-700.woff2",
+      "source": "samples/assets/component-kit/fonts/JetBrainsMono-700.woff2",
+      "sha256": "d0d4e818808f2a0ba39b2b09d1989366f63494e295f003c7ef436697378507e8"
+    },
+    {
+      "path": "assets/component-kit/fonts/LICENSE-Inter.txt",
+      "source": "samples/assets/component-kit/fonts/LICENSE-Inter.txt",
+      "sha256": "3b0a5fca3d17942cde889069889dedbbbd075e9b599968c82a95f4d944e9b345"
+    },
+    {
+      "path": "assets/component-kit/fonts/LICENSE-JetBrainsMono.txt",
+      "source": "samples/assets/component-kit/fonts/LICENSE-JetBrainsMono.txt",
+      "sha256": "403581b69dac5cff4079205e01c6b467e56af449ecbd7247693ddb1baafa005b"
+    },
+    {
+      "path": "assets/component-kit/manifest.json",
+      "source": "samples/assets/component-kit/manifest.json",
+      "sha256": "fd2997b711c9a9e47fce3d33f3ac763f269c3cbe475303679ee6a69b65d18ff1"
+    },
+    {
+      "path": "assets/component-kit/prepare.mjs",
+      "source": "samples/assets/component-kit/prepare.mjs",
+      "sha256": "052bd3f42ce67356ce122e840b9fb76205bf14cc0d5e181aa1e4a9855e83ca84"
+    },
+    {
+      "path": "assets/component-kit/SCENE-LICENSE",
+      "source": "samples/assets/component-kit/SCENE-LICENSE",
+      "sha256": "551ab8bbca0bcd4dc24b5a445205c5270b6eb7bec6af77c817d68b26796bccbc"
+    },
+    {
+      "path": "assets/component-kit/scene-licenses/hyperframes.txt",
+      "source": "samples/assets/component-kit/scene-licenses/hyperframes.txt",
+      "sha256": "4259155fb06f127687ee7b0a8a3682d45132db0f2da26cbc0b7a2d1e796436b8"
+    },
+    {
+      "path": "assets/component-kit/scene-licenses/lucide.txt",
+      "source": "samples/assets/component-kit/scene-licenses/lucide.txt",
+      "sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57"
+    },
+    {
+      "path": "assets/component-kit/scene-licenses/noto-sans-sc.txt",
+      "source": "samples/assets/component-kit/scene-licenses/noto-sans-sc.txt",
+      "sha256": "18aabf190848725e2576eefb5c29ba06aac1029d02132252a7f312eac2e50cf3"
+    },
+    {
+      "path": "assets/component-kit/SCENE-THIRD-PARTY-NOTICES.json",
+      "source": "samples/assets/component-kit/SCENE-THIRD-PARTY-NOTICES.json",
+      "sha256": "89a0b5f8a9b88a9052a190faeaf8d27563448ab758efb5f2cb27630b949f8d4b"
+    },
+    {
+      "path": "assets/component-kit/scene.css",
+      "source": "samples/assets/component-kit/scene.css",
+      "sha256": "e373158efdda986a8ce2b50ab98bd6c0b0986b311ecca3bc947f4886c6bc1447"
+    },
+    {
+      "path": "references/effect-catalog.json",
+      "source": "samples/catalog.json",
+      "sha256": "780d400048103356eaab2d6957c37ea8151f59d708f615aede38c6cef05ac686"
+    },
+    {
+      "path": "references/motion.json",
+      "source": "samples/saved-motion.json",
+      "sha256": "e78966f7d934160fe12a7389dad4cfc68359933fe5f0a918038897ccb761b2d1"
+    },
+    {
+      "path": "assets/roll-transitions/dust.svg",
+      "source": "Green adaptation of Baijin roll-transitions; see assets/roll-transitions/source.json",
+      "sha256": "d29cee2eeea55d03e75357217be8821a27d81cd07dce702752947663bfd0dfd0"
+    },
+    {
+      "path": "assets/roll-transitions/grain.svg",
+      "source": "Green adaptation of Baijin roll-transitions; see assets/roll-transitions/source.json",
+      "sha256": "e86011a7d8cfa8d3bcd560e91dde917b1c3c4a6aa7f83ba3b99a9890acd92245"
+    },
+    {
+      "path": "assets/roll-transitions/preset.json",
+      "source": "Green adaptation of Baijin roll-transitions; see assets/roll-transitions/source.json",
+      "sha256": "0c3e6d2a2f92d4e976edf327a85db8584e06ac5a572971fefca7b23ccf5a501b"
+    },
+    {
+      "path": "assets/roll-transitions/runtime.js",
+      "source": "Green adaptation of Baijin roll-transitions; see assets/roll-transitions/source.json",
+      "sha256": "d6c4f09475d59c22819c51aa8d272f45a48e522202b8d971aa07bffa554d65e1"
+    },
+    {
+      "path": "assets/roll-transitions/source.json",
+      "source": "Green adaptation of Baijin roll-transitions; see assets/roll-transitions/source.json",
+      "sha256": "644360e58e4bd9d9a200fd8cec5d98ec2d761285a5806f6709238b36aa461784"
+    },
+    {
+      "path": "assets/roll-transitions/style.css",
+      "source": "Green adaptation of Baijin roll-transitions; see assets/roll-transitions/source.json",
+      "sha256": "c50a394c623eb0e7c7a1aa15637cac420598a0276b6881b2fc037e6111e2c6f7"
+    }
+  ],
+  "upstream": [
+    {
+      "path": "assets/host.jpg",
+      "source": "projects/weiyu-style-lab/research/mav-editorial-preview/assets/presenter.jpg",
+      "sha256": "6ad418785240e9ed61a9700a0562c7fa6c7f001d20be3518ec0c0100e6bc6ebc"
+    },
+    {
+      "path": "assets/gsap.min.js",
+      "source": "projects/weiyu-style-lab/research/mav-editorial-preview/assets/gsap.min.js",
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+    },
+    {
+      "path": "assets/fonts/noto.ttf",
+      "source": "projects/weiyu-style-lab/skills/xiangsu-baijin/assets/navigation-original/noto-sans-sc.ttf",
+      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+    },
+    {
+      "path": "assets/fonts/montserrat.ttf",
+      "source": "projects/weiyu-style-lab/skills/xiangsu-baijin/assets/creator-mav/assets/extra-effects/fonts/Montserrat/Montserrat-wght.ttf",
+      "sha256": "0f7b311b2f3279e4eef9b2f968bcdbab6e28f4daeb1f049f4f278a902bcd82f7"
+    },
+    {
+      "path": "assets/fonts/oppo.ttf",
+      "source": "projects/weiyu-style-lab/research/mav-editorial-preview/assets/reference-sans.ttf",
+      "sha256": "6c7d5864c661516e1f400d9f21e4297f2e2a0719909691e29607cc4ef484a9f4"
+    },
+    {
+      "path": "assets/fonts/Noto-OFL.txt",
+      "source": "projects/weiyu-style-lab/research/mav-editorial-preview/assets/Noto-OFL.txt",
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "path": "assets/fonts/Montserrat-OFL.txt",
+      "source": "projects/weiyu-style-lab/research/mav-editorial-preview/assets/Montserrat-OFL.txt",
+      "sha256": "8b7141c03fa4f8d44e6345d5d4931709290f0f67875e452e95ac1fd3a027802e"
+    },
+    {
+      "path": "assets/fonts/OPPO-License.txt",
+      "source": "projects/weiyu-style-lab/research/mav-editorial-preview/assets/OPPO-OPPO Sans 4.0 License Notice.txt",
+      "sha256": "b013f80fa2fa6f6db4a31b793676f787af78263b568088a2d896e9d9b3e5fde7"
+    },
+    {
+      "path": "assets/material-source.html",
+      "source": "generated:local-authored-highlight-demo",
+      "sha256": "874ca6ee2112d8f53a773b03d5f3e6d8b84128d77832ee83f7033082176792d7"
+    },
+    {
+      "path": "assets/material-source.png",
+      "source": "generated:local-authored-highlight-demo",
+      "sha256": "f9bb4f13e8b991a2eeadc8e3e517ce803130b43c494f8034e85b8be91fb57597"
+    },
+    {
+      "path": "assets/material-regions.json",
+      "source": "generated:local-authored-highlight-demo",
+      "sha256": "3a7f06e5f88c2baa2f9d8fb8e2ce25b3ac35467df46f751330dd9faa8169b311"
+    },
+    {
+      "path": "assets/component-kit/manifest.json",
+      "source": "像素·白金 Xiangsu Baijin frozen Scene Kit adapter assets/component-kit",
+      "origin": "Native S01/S03/S12 producer and license notices reused; no old MAV outer stage. Exact source versions/hashes remain in its manifest."
+    }
+  ]
+}

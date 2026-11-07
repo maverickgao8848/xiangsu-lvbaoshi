@@ -1,0 +1,4 @@
+interface:
+  display_name: "像素·绿宝石 · Xiangsu Lvbaoshi"
+  short_description: "荧光绿、玻璃、气泡与点阵口播包装；包含完整编排、可选入退场及配套动作声音、像素 MG／Lemo 动画"
+  default_prompt: "用 $xiangsu-lvbaoshi 编排这段横屏中文口播，保留绿宝石玻璃与点阵视觉，制作可编辑的 HyperFrames 预览。"

@@ -1,0 +1,76 @@
+.f-layer { position: absolute; inset: 0; perspective: 1800px; pointer-events: none; }
+.f-layer *, .f-layer *::before, .f-layer *::after { box-sizing: border-box; }
+.f-layer svg { display: block; }
+.f-layer path { stroke-linecap: round; stroke-linejoin: round; }
+.f-lexicon { position: absolute; left: 110px; top: 205px; width: 545px; height: 520px; border-radius:36px; }
+.f-lens { position: absolute; inset: 0 0 auto; width: 545px; height: 217px; padding: 33px 36px; }
+.f-lens-kicker { font-size: 24px; letter-spacing: 2px; }
+.f-lens-word { margin-top: 25px; width: 434px; line-height: 1.2; font-weight: 800; overflow-wrap: anywhere; }
+.f-lens-plus { position: absolute; right: 27px; bottom: 33px; width: 40px; height: 40px; font-size: 40px; line-height: 1; text-align: center; }
+.f-definition { position: absolute; left: 0; width: 545px; min-height: 300px; padding: 31px 36px; border-top:1px solid #ffffff40; transform-origin: 50% 0; }
+.f-definition-rule { position: absolute; top: 29px; left: 32px; width: 60px; height: 4px; background: #d7ff48; border-radius: 4px; }
+.f-definition-label { margin: 17px 0 15px; font-size: 23px; }
+.f-definition-copy { width: 455px; font-size: 34px; line-height: 1.65; font-weight: 500; overflow-wrap: anywhere; }
+.f-definition-note { width: 455px; margin-top: 20px; font-size: 26px; line-height: 1.5; }
+
+.f-correction { position: absolute; left: 110px; top: 208px; width: 555px; }
+.f-correction-kicker { color: #d7ff48; letter-spacing: 2px; }
+.f-old-wrap { position: relative; margin-top: 37px; width: 550px; min-height: 120px; }
+.f-old-copy { width: 550px; font-size: 58px; line-height: 1.3; font-weight: 800; color: #f5f6f2; text-shadow: 0 3px 12px #08090b; overflow-wrap: anywhere; }
+.f-correction-stroke { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+.f-correction-stroke path { fill: none; stroke: #d7ff48; stroke-width: 5px; }
+.f-new-wrap { margin-top: 12px; width: 550px; }
+.f-correction-arrow { width: 45px; height: 65px; font-size: 63px; line-height: 1; font-weight: 500; }
+.f-new-copy { width: 550px; margin-top: 25px; font-weight: 900; line-height: 1.3; color: #f5f6f2; text-shadow: 0 3px 12px #08090b; overflow-wrap: anywhere; }
+.f-new-note { margin-top: 28px; width: 550px; font-size: 27px; line-height: 1.6; color: #d7ff48; }
+
+.f-keywords { position: absolute; left: 135px; top: 218px; width: 515px; height: 525px; }
+.f-keyword-label { margin-bottom: 40px; letter-spacing: 2px; color: #d7ff48; }
+.f-key-back { position: absolute; width: 195px; height: 82px; border-bottom: 2px solid rgba(245,246,242,.5); color: #f5f6f2; font-size: 45px; line-height: 1.35; font-weight: 700; text-shadow: 0 3px 10px #08090b; }
+.f-key-one { top: 76px; left: 0; }
+.f-key-two { top: 76px; left: 265px; }
+.f-key-three { top: 342px; left: 0; }
+.f-key-four { top: 342px; left: 265px; }
+.f-key-target { position: absolute; left: 0; top: 197px; width: 460px; min-height: 116px; padding: 21px 28px; border-radius: 25px; transform-origin: 50% 50%; }
+.f-key-target-copy { width: 404px; font-weight: 900; line-height: 1.2; overflow-wrap: anywhere; }
+.f-key-frame { position: absolute; left: -22px; top: 182px; width: 505px; height: 145px; overflow: visible; }
+.f-key-frame path { fill: none; stroke: #d7ff48; stroke-width: 6px; }
+.f-key-footer { position: absolute; top: 458px; left: 0; width: 460px; font-size: 27px; line-height: 1.5; color: #d7ff48; }
+
+.f-facts { padding: 33px 33px 22px !important; border-radius: 28px !important; transform-style: preserve-3d; }
+.f-facts-heading { width: 500px; line-height: 1.25; font-weight: 800; }
+.f-facts-demo { margin-top: 16px; margin-bottom: 18px; font-size: 23px; line-height: 1.4; color: #d7ff48; }
+.f-facts-table { width: 504px; }
+.f-facts-row { display: grid; grid-template-columns: 150px 1fr; align-items: center; min-height: 93px; border-top: 2px solid rgba(245,246,242,.57); }
+.f-facts-label { font-size: 29px; font-weight: 500; }
+.f-facts-value { display: block; text-align: right; font-size: 38px; font-weight: 800; white-space: nowrap; }
+.f-facts-resolution { font-size: 30px; letter-spacing: -1px; }
+
+
+
+.f-object-label { height: 180px; padding: 30px !important; border-radius: 27px !important; }
+.f-object-kicker { font-size: 24px; letter-spacing: 2px; }
+.f-object-title { width: 420px; margin-top: 22px; font-weight: 800; line-height: 1.25; overflow-wrap: anywhere; }
+.f-object-map { position: absolute; inset: 0; width: 1920px; height: 1080px; }
+.f-object-link { fill: none; stroke: #d7ff48; stroke-width: 3px; }
+.f-object-ring { fill: none; stroke: #d7ff48; stroke-width: 3px; transform-box: view-box; }
+.f-object-dot { fill: #d7ff48; transform-box: view-box; }
+
+.f-glass-question{position:absolute;left:110px;top:185px;width:590px;transform-origin:100% 65%}
+.f-question-material{position:absolute!important;inset:0;width:590px;border:0!important;border-radius:0!important;overflow:hidden;box-shadow:none!important}
+.f-question-content{position:absolute;left:38px;top:0;width:479px;display:flex;align-items:center;padding:29px 0 33px}
+.f-glass-question-copy{width:479px;line-height:1.34;font-weight:400;overflow-wrap:anywhere;text-shadow:0 1px 9px #00000055}
+.f-comments { position: absolute; left:110px; top:190px; width:565px; display:flex; flex-direction:column; align-items:flex-start; gap:34px; }
+.f-comment { position: relative; color: #08090b; padding: 26px 36px; display:flex; align-items:center; filter:drop-shadow(0 2px 1px #00000018); }
+.f-comment-shape { position:absolute; top:0; left:0; width:100%; overflow:visible; }
+.f-comment-shape path { fill:#fff; stroke:#151515; stroke-width:1.3; }
+.f-comment-second { margin-left:16px; }
+.f-comment-copy { position: relative; z-index: 1; width: 100%; font-size: 43px; font-weight: 400; line-height: 1.32; color: #08090b; text-shadow: none; overflow-wrap: anywhere; }
+
+.f-dialog-question { position: absolute; left: 130px; top: 235px; width: 490px; min-height: 247px; padding: 33px 36px 38px; border-radius: 42px; background: #f5f6f2; color: #08090b; box-shadow: 0 14px 30px rgba(8,9,11,.25); transform-origin: 0 50%; }
+.f-dialog-kicker { width: 100%; margin-bottom: 24px; font-size: 25px; line-height: 1.3; font-weight: 500; letter-spacing: 3px; }
+.f-dialog-question-copy { width: 418px; font-size: 48px; line-height: 1.45; font-weight: 500; text-shadow: none; overflow-wrap: anywhere; }
+.f-dialog-answer { min-height: 285px; padding: 32px 40px 49px !important; border-radius: 42px !important; }
+.f-dialog-answer-copy { width: 420px; font-weight: 800; line-height: 1.4; overflow-wrap: anywhere; }
+.f-dialog-answer-line { width: 420px; height: 28px; margin-top: 21px; overflow: visible; }
+.f-dialog-answer-line path { fill: none; stroke: #d7ff48; stroke-width: 5px; }
