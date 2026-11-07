@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "id": "gable-reed",
+  "displayName": "工程图册",
+  "revision": "p32.3-motion.1.single.1",
+  "provenance": {
+    "kind": "user_supplied_style_pack",
+    "sourceDesign": "Gable-Reed-Two-Plates-Only-DESIGN.md",
+    "sourceDesignSha256": "247449a9f6ffde634b2c81414529bfc51e82eb0359c81e7a052f4231094a322f",
+    "license": "not_supplied; user reference image redistribution rights not supplied",
+    "repository": null,
+    "commit": null,
+    "publicReleaseRights": "2026-11-07: repository owner confirmed public redistribution authorization for the reference images."
+  },
+  "selection": {
+    "kind": "planned_style_intake",
+    "roadmapStage": "P32"
+  },
+  "adaptationNotes": [
+    "Dark samples and source background token govern the effective dark video frame; contradictory light-mode and secondary-text declarations remain provenance.",
+    "Square geometry resolves incompatible website corner tokens. Local Noto Sans SC and DM Mono replace remote Inter and support Chinese video-size typography.",
+    "Scrolling, pointer interaction, network Three.js imports, WebGL and Two Plates Only are source-page context, not video runtime rules.",
+    "Shared camera, text timing and continuity rules are owned by motion-direction; historical project reviews retain their original scope and do not approve this motion revision."
+  ],
+  "validationScope": {
+    "basis": "P32 new-topic video; preview.13 motion-direction adaptation",
+    "crossTopic": "passed_new_topic_standard_mode_preview",
+    "productionArtDirection": "approved",
+    "userReview": "User approved the hash-bound P32.3 22-second standard-mode arch-load-path video with '通过' on 2026-09-23; approval does not extend to advanced mode, other topics, or general production art direction.",
+    "advancedMode": "passed_six_second_key_mechanism_probe",
+    "standardProject": "videos/arch-load-path-p32",
+    "standardIndexSha256": "1d87cf9530355ef730a17b14cf75cd3516fb56b376443d8b0ba019b5b08c0a81"
+  },
+  "files": [
+    {
+      "path": "FRAME.md",
+      "sha256": "7d819e7bfede99f57c87fd4f1f0c63f6598c8839a8f747cc89d86046c7c3815d"
+    },
+    {
+      "path": "samples/sample-01.png",
+      "sha256": "efac97a503c80a55fbd872a855bbf16c67862ae69dee52b8a97a50f0dddcfc04"
+    },
+    {
+      "path": "samples/sample-02.png",
+      "sha256": "9a57ce27e679859e41c499db8e72ea832ca642f1dd1da4d2435e63b6d67d5ec9"
+    },
+    {
+      "path": "samples/sample-03.png",
+      "sha256": "e5f7a29f8cb342b6205b4f841ea59a6f7a9d1a0a70765a1e6d02601935c75a4b"
+    },
+    {
+      "path": "samples/sample-04.png",
+      "sha256": "13ab7fbd67e822a306c8cfe73858ca0c40a177ce8fc337a8ea8d0166e724f725"
+    },
+    {
+      "path": "samples/sample-05.png",
+      "sha256": "db0e0ba8f95e868ed3be303781d1a2e18a73f933caa6fc21a2f2a80844c8c25b"
+    },
+    {
+      "path": "samples/sample-06.png",
+      "sha256": "9246f7ac6762ce6d9059b3bae50cae1368d557e7bc1f0c9e46d2e7904c0a9741"
+    },
+    {
+      "path": "samples/sample-07.png",
+      "sha256": "eb5c820fff4e21cd6564b02437332b6573c20e11145072c970ae484949083525"
+    },
+    {
+      "path": "mechanism-samples/sample-01.png",
+      "sha256": "500de2a921921e18d11246e2b32f6ed01d04bb3801a136189c9be3ce927b1e23"
+    },
+    {
+      "path": "mechanism-samples/sample-02.png",
+      "sha256": "c371aab953575b05bec6505e7445cc266c5d3ad804a37d0e4f0d52b190e6da97"
+    },
+    {
+      "path": "mechanism-samples/sample-03.png",
+      "sha256": "d3f28662d71ad4d22319db22d376c3b8effdd39a3dc54309b05b3d65e918ae4b"
+    },
+    {
+      "path": "mechanism-samples/sample-04.png",
+      "sha256": "83368af612c3ee75274c9b29c2a776d8890e44280b66ec840e9ebf3333efad5b"
+    },
+    {
+      "path": "mechanism-samples/sample-05.png",
+      "sha256": "a3f8dde07f760c884a9dcd8b2e2a2608b271bfc84f4f9a0c8f28186c1dd1a0d6"
+    },
+    {
+      "path": "mechanism-samples/sample-06.png",
+      "sha256": "4b4836930eff9f9291d44a97ae5eaefe31f3bf8530e020f227e3d505caa2bfe6"
+    },
+    {
+      "path": "mechanism-samples/sample-07.png",
+      "sha256": "e4e47b31400843e3560bb02087defc1bce3aae383e6749709733574546f96f30"
+    }
+  ]
+}
