@@ -1,0 +1,21 @@
+{
+  "schemaVersion": "mav-host-edge-shadow-preset/v1",
+  "id": "soft-edge-v1",
+  "label": "柔和边缘暗角",
+  "width": 1920,
+  "height": 1080,
+  "center": [
+    0.5,
+    0.5
+  ],
+  "clearRadius": 0.62,
+  "outerRadius": 1.42,
+  "maxOpacity": 0.28,
+  "interpolation": "smootherstep",
+  "assetSha256": "de7635c83de0c0823ec3d123a22c4c4369924e3450af85fa7167cd879260c3a7",
+  "origin": "Original mathematical RGBA field",
+  "copyright": "Original generated asset; reusable with this Skill",
+  "selectionPolicy": "Ask once per new talking-head project; retain known project decision; default off without an answer",
+  "firstApprovedProject": "next-hotspot",
+  "approvedOn": "2026-10-05"
+}

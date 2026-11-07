@@ -1,0 +1,16 @@
+.gl-roll-visual{position:absolute;inset:0;transform-origin:50% 50%}
+.gl-roll-fx{position:absolute;inset:0;z-index:44;pointer-events:none}
+.gl-roll-blank{position:absolute;inset:0;background:#08090a;z-index:19;opacity:0;pointer-events:none}
+.gl-roll-fx .slide-rim{position:absolute;inset:0;border:18px solid #dbe3e678;border-bottom-width:22px;border-radius:32px;opacity:0;background:transparent;box-shadow:inset 0 0 0 2px #f3fbffbd,inset 0 0 24px #d5f2ff1f,0 22px 70px #000a,0 0 1px 2px #131d22,inset 0 -4px 10px #d7ff483d}
+.gl-roll-fx .slide-rim:after{content:'';position:absolute;inset:-18px;border:1px solid #d7ff4880;border-radius:32px;box-shadow:0 0 18px #d7ff4814}
+.gl-roll-fx .lime-sweep{position:absolute;inset:-80px;opacity:0;background:linear-gradient(105deg,transparent 37%,#edffbb15 43%,#d7ff4870 49%,#f5ffdc55 51%,transparent 60%);mix-blend-mode:screen}
+.gl-roll-fx .film-fx{position:absolute;inset:0;opacity:0;overflow:hidden}
+.gl-roll-fx .film-fx>*{position:absolute;inset:0;opacity:0}
+.gl-roll-fx .film-dim{background:#060707}
+.gl-roll-fx .film-vignette{background:radial-gradient(ellipse at 51% 48%,transparent 20%,#03040433 45%,#010202dd 79%,#010202 100%)}
+.gl-roll-fx .film-grain{inset:-40px;background-image:url('assets/glass-lime/roll-transitions/grain.svg');background-size:420px 420px;mix-blend-mode:screen}
+.gl-roll-fx .film-dust{width:100%;height:100%;mix-blend-mode:screen;background-image:url('assets/glass-lime/roll-transitions/dust.svg');background-size:100% 100%;background-repeat:no-repeat}
+.gl-roll-fx .film-scratches{width:100%;height:100%;mix-blend-mode:screen}
+.gl-roll-fx .film-gate{background:linear-gradient(0deg,#010202 0 1.2%,transparent 1.7% 97.8%,#010202 98.6%);box-shadow:inset 32px 0 22px #000b,inset -28px 0 22px #000b}
+.gl-roll-fx .film-flash{background:radial-gradient(ellipse at 49% 43%,#fbfff1 0,#e0efbc 49%,#a7bc79 100%);mix-blend-mode:screen}
+.gl-roll-fx .film-leak{inset:-100px;background:radial-gradient(ellipse at 7% 58%,#fbffe6 0,#d7ff48c9 13%,#a0c64070 28%,transparent 49%),radial-gradient(ellipse at 95% 20%,#ebffbba8 0,#b0dd4880 17%,transparent 40%);mix-blend-mode:screen}

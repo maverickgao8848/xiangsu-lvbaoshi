@@ -1,0 +1,20 @@
+{
+  "sourceSkill": "xiangsu-baijin",
+  "sourceEffectNumber": 22,
+  "selectedOn": "2026-10-18",
+  "sourceFiles": [
+    {
+      "path": "scripts/material_display.py",
+      "sha256": "b17bfd2384e80a881547a23533c94e52c894390d1126aa58d6b26b6039afb608"
+    },
+    {
+      "path": "assets/material-display/style.css",
+      "sha256": "0fa86df00fbccdac62d84f4d28167cbfbb30879c52caffe1f67428436470a921"
+    },
+    {
+      "path": "assets/material-display/preset.json",
+      "sha256": "568aed2d554de72723c9dbf45c435db0c91a85a3c30d42d51d52ae5e5ad4eced"
+    }
+  ],
+  "adaptation": "保留cinema舞台、框体几何、材质和入场；独立打包，说明字用绿宝石既有OPPO字体并避开底部导航；完整素材contain，按beat显式启用。"
+}

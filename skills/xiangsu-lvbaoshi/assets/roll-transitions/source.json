@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-18",
+  "approval": "User approved glass-slide and lime-leak as defaults and delegated per-shot choice",
+  "origin": [
+    {
+      "path": "xiangsu-baijin/assets/roll-transitions/runtime.js",
+      "sha256": "d8df00caf13edd39b4fcb3662d39cd09bd901c04be9bd79856014ef2d895cf94"
+    },
+    {
+      "path": "xiangsu-baijin/assets/roll-transitions/style.css",
+      "sha256": "203af0753e017192e7bc1d468268c3c0eb042f577f2d2737e2acfa0f519a893a"
+    },
+    {
+      "path": "xiangsu-baijin/assets/roll-transitions/dust.svg",
+      "sha256": "d29cee2eeea55d03e75357217be8821a27d81cd07dce702752947663bfd0dfd0"
+    },
+    {
+      "path": "xiangsu-baijin/assets/roll-transitions/grain.svg",
+      "sha256": "e86011a7d8cfa8d3bcd560e91dde917b1c3c4a6aa7f83ba3b99a9890acd92245"
+    }
+  ],
+  "greenPreview": "lvbaoshi-roll-preview-20261018: 01 glass-slide, 02 lime-leak; 03/09 are comparison originals only",
+  "dependency": "Self-contained local assets; no Baijin runtime dependency",
+  "scope": "Bidirectional host/complete B-roll boundaries; independent of chapters and foreground entrances"
+}

@@ -1,0 +1,7 @@
+{
+  "version": "glass-lime-roll-transitions/v1",
+  "durations": {"glass-slide": 0.64, "lime-leak": 0.56},
+  "minimumHoldSec": 0.5,
+  "selection": "Both are approved defaults. Author may choose either per B-roll beat; auto uses a stable beat-id choice. Use the same style on entry and return.",
+  "origin": "xiangsu-baijin trusted-cut 03 and 09, adapted and visually approved 2026-10-18"
+}

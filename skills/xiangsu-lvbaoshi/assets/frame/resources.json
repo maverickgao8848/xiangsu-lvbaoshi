@@ -1,0 +1,49 @@
+{
+  "styleId": "glass-lime-extracted",
+  "resources": [
+    {
+      "path": "assets/glass-lime/frame/mg-style.css",
+      "sha256": "c25ae33c198e30c0fcad2d8fc176882ff28f1dc7d0caf332db6089681922917c"
+    },
+    {
+      "path": "assets/glass-lime/frame/glass.js",
+      "sha256": "9296541e202d8e4c184233782a84fbcb4cb0936211bafc6019dc78714a64f326"
+    },
+    {
+      "path": "assets/glass-lime/fonts/Montserrat-OFL.txt",
+      "sha256": "8b7141c03fa4f8d44e6345d5d4931709290f0f67875e452e95ac1fd3a027802e"
+    },
+    {
+      "path": "assets/glass-lime/fonts/montserrat.ttf",
+      "sha256": "0f7b311b2f3279e4eef9b2f968bcdbab6e28f4daeb1f049f4f278a902bcd82f7"
+    },
+    {
+      "path": "assets/glass-lime/fonts/Noto-OFL.txt",
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "path": "assets/glass-lime/fonts/noto.ttf",
+      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+    },
+    {
+      "path": "assets/glass-lime/fonts/OPPO-License.txt",
+      "sha256": "b013f80fa2fa6f6db4a31b793676f787af78263b568088a2d896e9d9b3e5fde7"
+    },
+    {
+      "path": "assets/glass-lime/fonts/oppo.ttf",
+      "sha256": "6c7d5864c661516e1f400d9f21e4297f2e2a0719909691e29607cc4ef484a9f4"
+    },
+    {
+      "path": "assets/glass-lime/fonts/Reference-Roboto-OFL.txt",
+      "sha256": "061402327a96aadb0bfb694a960ed289ecd38d383e396243831ab81feb109c41"
+    },
+    {
+      "path": "assets/glass-lime/fonts/reference-roboto.ttf",
+      "sha256": "d7598e12c5dbef095ff8272cfc55da0250bd07fbdecbac8a530b9b277872a134"
+    },
+    {
+      "path": "assets/glass-lime/frame/source.json",
+      "sha256": "8c2fd43882ef59ac5b3cc9223540f4f88d24e76472954f38b3d9532a5ba382bd"
+    }
+  ]
+}

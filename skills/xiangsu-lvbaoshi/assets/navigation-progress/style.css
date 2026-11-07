@@ -1,0 +1,167 @@
+.gl-progress {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 40px;
+  z-index: 46;
+  pointer-events: none;
+  font-family: GLCaption, sans-serif;
+  color: #f5f6f2;
+}
+.gl-progress * { box-sizing: border-box; }
+.gl-progress .bar {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  background: linear-gradient(180deg, rgba(40, 46, 49, .40), rgba(10, 13, 15, .66));
+  -webkit-backdrop-filter: blur(30px) saturate(.62) brightness(.94);
+  backdrop-filter: blur(30px) saturate(.62) brightness(.94);
+  border-top: 1px solid rgba(232, 239, 242, .32);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .10), inset 0 -1px 0 rgba(0, 0, 0, .30), 0 -12px 30px rgba(0, 0, 0, .16);
+}
+.gl-progress .bar::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='.62'/%3E%3C/svg%3E");
+  background-size: 140px 140px;
+  opacity: .055;
+  mix-blend-mode: overlay;
+  pointer-events: none;
+}
+.gl-progress .bar::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(240, 246, 248, .05), rgba(244, 250, 252, .58) 16%, rgba(226, 234, 237, .24) 46%, rgba(240, 247, 249, .46) 76%, rgba(240, 246, 248, .03));
+  pointer-events: none;
+}
+.gl-progress .segment {
+  position: relative;
+  flex: var(--duration) 1 0;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  box-shadow: inset -1px 0 0 rgba(234, 241, 243, .12), inset 1px 0 0 rgba(0, 0, 0, .16);
+}
+.gl-progress .fill {
+  position: absolute;
+  inset: 0;
+  transform: scaleX(0);
+  transform-origin: left center;
+  background: linear-gradient(90deg, rgba(198, 208, 213, .16), rgba(216, 225, 229, .30) 52%, rgba(240, 246, 248, .46) 100%);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .40), inset 0 -1px 0 rgba(0, 0, 0, .22), inset 0 0 22px rgba(236, 243, 246, .07);
+}
+.gl-progress .fill::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(102deg, rgba(255, 255, 255, .055) 0 1px, transparent 1px 3px);
+  opacity: .55;
+}
+.gl-progress .head {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 2px;
+  margin-left: -1px;
+  background: rgba(248, 251, 252, .92);
+  box-shadow: 0 0 10px rgba(232, 242, 245, .52), 0 0 2px rgba(255, 255, 255, .95);
+  opacity: 0;
+  z-index: 2;
+}
+.gl-progress .label {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  align-items: baseline;
+  gap: 9px;
+  max-width: calc(100% - 28px);
+  overflow: hidden;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: .10em;
+  color: rgba(232, 239, 241, .74);
+  text-shadow: 0 1px 3px rgba(0, 0, 0, .82), 0 0 12px rgba(0, 0, 0, .45);
+}
+.gl-progress .label b {
+  flex: none;
+  font-family: GLNumbers, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .16em;
+  color: rgba(232, 239, 241, .54);
+  transform: translateY(-1px);
+}
+.gl-progress .label em {
+  min-width: 0;
+  overflow: hidden;
+  font-style: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* Optional chapter badge: persistent top-left label, independent of foreground effects. */
+.gl-corner {
+  position: absolute;
+  left: 48px;
+  top: 44px;
+  z-index: 48;
+  width: 192px;
+  height: 44px;
+  pointer-events: none;
+}
+.gl-corner-items { position: relative; width: 100%; height: 100%; }
+.gl-corner-item {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 10px 14px 10px 12px;
+  background: linear-gradient(90deg, rgba(8, 10, 12, .76), rgba(8, 10, 12, .46) 74%, rgba(8, 10, 12, 0));
+  border-left: 2px solid #d7ff48;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, .22);
+}
+.gl-corner-item b {
+  flex: none;
+  font-family: GLNumbers, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .16em;
+  line-height: 22px;
+  color: #d7ff48;
+}
+.gl-corner-item i {
+  display: block;
+  flex: none;
+  width: 1px;
+  height: 22px;
+  background: rgba(245, 246, 242, .42);
+}
+.gl-corner-item h2 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: .12em;
+  white-space: nowrap;
+  color: #f5f6f2;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, .8);
+}
+.gl-corner-line {
+  position: absolute;
+  left: 12px;
+  bottom: -1px;
+  width: 168px;
+  height: 1px;
+  background: linear-gradient(90deg, #d7ff48, rgba(215, 255, 72, 0));
+  transform-origin: left center;
+  transform: scaleX(0);
+}

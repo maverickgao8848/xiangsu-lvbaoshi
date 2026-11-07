@@ -1,0 +1,92 @@
+[
+  {
+    "path": "assets/gsap.min.js",
+    "source": "C:\\Users\\buend\\Desktop\\复刻实验室\\projects\\glass-lime-editorial-lab\\samples\\assets\\gsap.min.js",
+    "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+  },
+  {
+    "path": "assets/base.js",
+    "source": "C:\\Users\\buend\\Desktop\\复刻实验室\\projects\\glass-lime-editorial-lab\\samples\\assets\\base.js",
+    "sha256": "5ef0fa876754f9147f5d5f011bfb00f19a235ff790e3666fd2129b0bc5851bca"
+  },
+  {
+    "path": "assets/focus.js",
+    "source": "C:\\Users\\buend\\Desktop\\复刻实验室\\projects\\glass-lime-editorial-lab\\samples\\assets\\focus.js",
+    "sha256": "6a3a191cf621675550a3372c8490d7e4ad134172a244b4ceebe00a99450f1856"
+  },
+  {
+    "path": "assets/flow.js",
+    "source": "C:\\Users\\buend\\Desktop\\复刻实验室\\projects\\glass-lime-editorial-lab\\samples\\assets\\flow.js",
+    "sha256": "863014d3a9cdcf8796fde82b42c71a30683031e42afd5d3b6210549e045627bf"
+  },
+  {
+    "path": "assets/extra.js",
+    "source": "C:\\Users\\buend\\Desktop\\复刻实验室\\projects\\glass-lime-editorial-lab\\samples\\assets\\extra.js",
+    "sha256": "26b3b9bc9e370ae730d94065dcb70564b9469777b6b493429c923ba1737fde0d"
+  },
+  {
+    "path": "assets/host.jpg",
+    "source": "C:\\Users\\buend\\Desktop\\复刻实验室\\projects\\glass-lime-editorial-lab\\samples\\assets\\host.jpg",
+    "sha256": "6ad418785240e9ed61a9700a0562c7fa6c7f001d20be3518ec0c0100e6bc6ebc"
+  },
+  {
+    "path": "assets/fonts/noto.ttf",
+    "source": "C:\\Users\\buend\\Desktop\\复刻实验室\\projects\\glass-lime-editorial-lab\\samples\\assets\\fonts\\noto.ttf",
+    "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+  },
+  {
+    "path": "assets/fonts/montserrat.ttf",
+    "source": "C:\\Users\\buend\\Desktop\\复刻实验室\\projects\\glass-lime-editorial-lab\\samples\\assets\\fonts\\montserrat.ttf",
+    "sha256": "0f7b311b2f3279e4eef9b2f968bcdbab6e28f4daeb1f049f4f278a902bcd82f7"
+  },
+  {
+    "path": "assets/fonts/oppo.ttf",
+    "source": "C:\\Users\\buend\\Desktop\\复刻实验室\\projects\\glass-lime-editorial-lab\\samples\\assets\\fonts\\oppo.ttf",
+    "sha256": "6c7d5864c661516e1f400d9f21e4297f2e2a0719909691e29607cc4ef484a9f4"
+  },
+  {
+    "path": "assets/fonts/Noto-OFL.txt",
+    "source": "C:\\Users\\buend\\Desktop\\复刻实验室\\projects\\glass-lime-editorial-lab\\samples\\assets\\fonts\\Noto-OFL.txt",
+    "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+  },
+  {
+    "path": "assets/fonts/Montserrat-OFL.txt",
+    "source": "C:\\Users\\buend\\Desktop\\复刻实验室\\projects\\glass-lime-editorial-lab\\samples\\assets\\fonts\\Montserrat-OFL.txt",
+    "sha256": "8b7141c03fa4f8d44e6345d5d4931709290f0f67875e452e95ac1fd3a027802e"
+  },
+  {
+    "path": "assets/fonts/OPPO-License.txt",
+    "source": "C:\\Users\\buend\\Desktop\\复刻实验室\\projects\\glass-lime-editorial-lab\\samples\\assets\\fonts\\OPPO-License.txt",
+    "sha256": "b013f80fa2fa6f6db4a31b793676f787af78263b568088a2d896e9d9b3e5fde7"
+  },
+  {
+    "path": "assets/sfx/click-soft.mp3",
+    "source": "C:\\Users\\buend\\.agents\\skills\\media-use\\audio\\assets\\sfx\\click-soft.mp3",
+    "sha256": "075e17bdac5c13662a1c9530050e0046f81d4138e00eb3bf30427a7b4404103d"
+  },
+  {
+    "path": "assets/sfx/ping.mp3",
+    "source": "C:\\Users\\buend\\.agents\\skills\\media-use\\audio\\assets\\sfx\\ping.mp3",
+    "sha256": "c54d088fa2709e6b3c9ce87594a9187d0d5338d3a8c683271f9c4353a8ee8c91"
+  },
+  {
+    "path": "assets/sfx/pop.mp3",
+    "source": "C:\\Users\\buend\\.agents\\skills\\media-use\\audio\\assets\\sfx\\pop.mp3",
+    "sha256": "19ab7193f626ff57fdeef60b45543bac416fcbcec803cfb417abe4b271c1b352"
+  },
+  {
+    "path": "assets/sfx/whoosh-short.mp3",
+    "source": "C:\\Users\\buend\\.agents\\skills\\media-use\\audio\\assets\\sfx\\whoosh-short.mp3",
+    "sha256": "c2efd9d902a59bf9ec5019035d7deadd17762136896b6e3cb6dd99ea50997a30"
+  },
+  {
+    "path": "assets/sfx/CREDITS.md",
+    "source": "C:\\Users\\buend\\.agents\\skills\\media-use\\audio\\assets\\sfx\\CREDITS.md",
+    "sha256": "79590c7738b0427b10f362f76b02cfd2643158a40e1d5fd787f9ac6b33bcf4ce"
+  },
+  {
+    "path": "assets/sfx/camera.wav",
+    "source": "C:\\Users\\buend\\Desktop\\复刻实验室\\projects\\weiyu-style-lab\\private-library\\assets\\sfx\\camera.wav",
+    "sha256": "b6275177f23560cb0f310c89c16e457f1310952c2b6a1671391e0e25e5752a96"
+  }
+]

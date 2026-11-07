@@ -1,0 +1,26 @@
+/* Extracted from the user's approved Glass Lime pipeline. Geometry/timing belong to the current storyboard. */
+@font-face{font-family:GLSans;src:url('../fonts/noto.ttf');font-weight:100 900;font-display:block}
+@font-face{font-family:GLNumbers;src:url('../fonts/montserrat.ttf');font-weight:100 900;font-display:block}
+@font-face{font-family:GLCaption;src:url('../fonts/oppo.ttf');font-weight:100 900;font-display:block}
+:root{--gl-background:#08090b;--gl-text:#f5f6f2;--gl-secondary:#a8afb4;--gl-accent:#d7ff48;--gl-dots:#29414d}
+html,body{background:var(--gl-background);color:var(--gl-text)}
+main{font-family:GLSans,sans-serif;color:var(--gl-text)}
+.ground,.mg-background{position:absolute;inset:0;background:radial-gradient(ellipse at 55% 80%,#d7ff4810,transparent 55%),radial-gradient(circle,#29414d 1.5px,transparent 2px) 0 0/24px 24px,#08090b}
+.glass{background:linear-gradient(120deg,#16212c4a,#d4e5ef12 43%,#10151c40);border:1px solid #d2e0ee40;border-radius:25px;box-shadow:0 12px 32px #0008,inset 0 1px #ffffff28;backdrop-filter:blur(3px) var(--glass-optics,blur(0px))}
+.glass:before{content:'';position:absolute;inset:0;border-radius:inherit;background-image:var(--glass-edge);background-size:100% 100%;pointer-events:none}
+.plane,.glass-label,.cost-chip{background:linear-gradient(120deg,#16212c4a,#d4e5ef12 43%,#10151c40);border:1px solid #d2e0ee40;box-shadow:0 12px 32px #0008,inset 0 1px #ffffff28;backdrop-filter:blur(3px) var(--glass-optics,blur(0px))}
+.plane{border-radius:25px}
+.glass-label,.cost-chip{border-radius:22px}
+.head,.hero-word,.caption-claim,.choice-word{font-weight:800}
+.head,.txt,.lane-label,.brain-label,.arc-label,.glass-label,.cost-chip{color:var(--gl-text)}
+.small,.kicker,.under,.read-note{color:var(--gl-secondary)}
+.accent,.hero-word,.choice-word{color:var(--gl-accent)}
+.line{background:var(--gl-accent)}
+.thin,.hair{background:var(--gl-dots)}
+.semantic path{stroke:var(--gl-accent)}
+.semantic .quiet,.semantic .muted-path{stroke:#a8afb4!important}
+.object{filter:drop-shadow(0 0 2px #d7ff4838) drop-shadow(0 0 8px #d7ff481c) drop-shadow(0 14px 20px #05090f50)}
+.active-space{background:linear-gradient(90deg,#d7ff4805,#d7ff483a);border-color:#d7ff4880}
+.tag-outline path{fill:#d4e5ef12;stroke:#d2e0ee80}
+.tag-outline circle{fill:var(--gl-background);stroke:var(--gl-accent)}
+.outline-word{-webkit-text-stroke:1px var(--gl-accent);color:transparent}

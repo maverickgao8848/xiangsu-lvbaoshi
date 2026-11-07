@@ -1,0 +1,19 @@
+{
+  "version": "glass-lime-cinema/v1",
+  "selectedOn": "2026-10-18",
+  "selectionStatus": "user-selected",
+  "selectionBasis": "用户要求将白金22号电影画框加入绿宝石，素材与动画均可选用。",
+  "defaultStyle": "cinema",
+  "styles": {
+    "cinema": {
+      "label": "电影画框",
+      "defaultScale": 1.2065972222222223,
+      "maxScale": 1.2065972222222223,
+      "restX": 0,
+      "defaultLight": 0.75,
+      "outerWidthPx": 1737.5,
+      "outerHeightPx": 989.4097222222223
+    }
+  },
+  "projectPreviewApprovalRequired": true
+}

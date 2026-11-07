@@ -1,0 +1,36 @@
+{
+  "name": "editorial-camera",
+  "path": "assets/sfx/camera.wav",
+  "sourcePage": "https://freesound.org/people/roachpowder/sounds/170229/",
+  "downloadUrl": "https://cdn.freesound.org/previews/170/170229_3133582-hq.mp3",
+  "sourceTitle": "Camera Shutter",
+  "creator": "roachpowder",
+  "licensePage": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "rights": {
+    "commercial": true,
+    "attributionRequired": false,
+    "rawRedistribution": true
+  },
+  "acquiredAt": "2026-09-28",
+  "tags": [
+    "音效",
+    "快门"
+  ],
+  "duration": 0.2283125,
+  "peakAt": 0.042541666666666665,
+  "sha256": "b6275177f23560cb0f310c89c16e457f1310952c2b6a1671391e0e25e5752a96",
+  "derivedFrom": {
+    "path": "assets/sfx/raw/camera.mp3",
+    "sha256": "b5c29f81b6daedb089273859ce88575549154cbe33fb13d37c12795364f95a5f",
+    "parameters": {
+      "sourceStart": 0.067,
+      "duration": 0.2283125,
+      "peakTargetDbfs": -12,
+      "gainRatio": 0.22820370972854243,
+      "attackFadeSamples": 48,
+      "tailFadeSamples": 576,
+      "sampleRate": 48000
+    }
+  },
+  "usageNote": "独立 CC0 录音的短裁切；不是从参考视频抽取。滚轴使用实际棘轮旋转录音。"
+}

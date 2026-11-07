@@ -1,0 +1,589 @@
+{
+  "version": "glass-lime-library/v1",
+  "files": [
+    {
+      "path": "agents/openai.yaml",
+      "sha256": "2f03b861d99c3068d8b238889f25a900a8e5b548f623fb74cc0a9307da40ec57"
+    },
+    {
+      "path": "asset-credits.json",
+      "sha256": "07f1c26b6017309db6679c319203c60da4895b1b9797e6968ef9afd86c382784"
+    },
+    {
+      "path": "assets/base.js",
+      "sha256": "5ef0fa876754f9147f5d5f011bfb00f19a235ff790e3666fd2129b0bc5851bca"
+    },
+    {
+      "path": "assets/common.css",
+      "sha256": "0a91b013f2758f4fcd3edccc00f6af2e9cf04a7aa549261dbab3f23bc476f98e"
+    },
+    {
+      "path": "assets/component-kit/fonts/Inter-400.woff2",
+      "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc"
+    },
+    {
+      "path": "assets/component-kit/fonts/Inter-700.woff2",
+      "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491"
+    },
+    {
+      "path": "assets/component-kit/fonts/JetBrainsMono-400.woff2",
+      "sha256": "14425ba9c695763c1547f48a206b7aa60350a33ae23de09f0407877f3fcd89eb"
+    },
+    {
+      "path": "assets/component-kit/fonts/JetBrainsMono-700.woff2",
+      "sha256": "d0d4e818808f2a0ba39b2b09d1989366f63494e295f003c7ef436697378507e8"
+    },
+    {
+      "path": "assets/component-kit/fonts/LICENSE-Inter.txt",
+      "sha256": "3b0a5fca3d17942cde889069889dedbbbd075e9b599968c82a95f4d944e9b345"
+    },
+    {
+      "path": "assets/component-kit/fonts/LICENSE-JetBrainsMono.txt",
+      "sha256": "403581b69dac5cff4079205e01c6b467e56af449ecbd7247693ddb1baafa005b"
+    },
+    {
+      "path": "assets/component-kit/manifest.json",
+      "sha256": "fd2997b711c9a9e47fce3d33f3ac763f269c3cbe475303679ee6a69b65d18ff1"
+    },
+    {
+      "path": "assets/component-kit/prepare.mjs",
+      "sha256": "052bd3f42ce67356ce122e840b9fb76205bf14cc0d5e181aa1e4a9855e83ca84"
+    },
+    {
+      "path": "assets/component-kit/SCENE-LICENSE",
+      "sha256": "551ab8bbca0bcd4dc24b5a445205c5270b6eb7bec6af77c817d68b26796bccbc"
+    },
+    {
+      "path": "assets/component-kit/scene-licenses/hyperframes.txt",
+      "sha256": "4259155fb06f127687ee7b0a8a3682d45132db0f2da26cbc0b7a2d1e796436b8"
+    },
+    {
+      "path": "assets/component-kit/scene-licenses/lucide.txt",
+      "sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57"
+    },
+    {
+      "path": "assets/component-kit/scene-licenses/noto-sans-sc.txt",
+      "sha256": "18aabf190848725e2576eefb5c29ba06aac1029d02132252a7f312eac2e50cf3"
+    },
+    {
+      "path": "assets/component-kit/SCENE-THIRD-PARTY-NOTICES.json",
+      "sha256": "89a0b5f8a9b88a9052a190faeaf8d27563448ab758efb5f2cb27630b949f8d4b"
+    },
+    {
+      "path": "assets/component-kit/scene.css",
+      "sha256": "e373158efdda986a8ce2b50ab98bd6c0b0986b311ecca3bc947f4886c6bc1447"
+    },
+    {
+      "path": "assets/domain-warp-exit.js",
+      "sha256": "9a746efea8817404d183e16a95124332585b2206e8551b85d725aefad9d39942"
+    },
+    {
+      "path": "assets/editorial.js",
+      "sha256": "b1d3c2176cf0558d3e94935b3125ccf40e98b848fdc2dd3234eff8fb356c4da6"
+    },
+    {
+      "path": "assets/envelope.css",
+      "sha256": "984ec2fb89979e9352e22391e9c3136b82710108ba25d697a1747ad17e72f252"
+    },
+    {
+      "path": "assets/envelope.js",
+      "sha256": "ba323d2efa15951d9cb56b458ae44269129a9fdf71c0803f6870c2418a12f9c5"
+    },
+    {
+      "path": "assets/extra.css",
+      "sha256": "ede5299a6ff5d3110e11b5ff71b93c24dab7c975de37c9f97fd7ac70778275e9"
+    },
+    {
+      "path": "assets/extra.js",
+      "sha256": "01fb6bfe3b91a8e773bf78b7ea5ed9f65002d1b719ef1a721cb080dc253923aa"
+    },
+    {
+      "path": "assets/flow.css",
+      "sha256": "1a9d4bf1eece1ad438f75950afd8db8c0eab6c47d0d3be5e901fb304e4ca925a"
+    },
+    {
+      "path": "assets/flow.js",
+      "sha256": "49c4424ff91f8b1647e280ecb681a1f644ead29286c1bed4f60cfeac034e9899"
+    },
+    {
+      "path": "assets/focus.css",
+      "sha256": "37ccc24aec4d7788279b95fb597d8bf212aeee55d2c7d1565698269ba84057fb"
+    },
+    {
+      "path": "assets/focus.js",
+      "sha256": "d091faa73d55315d7a3674fd58ce8481da3e205b90531e5ccc44f295632e1ab0"
+    },
+    {
+      "path": "assets/fonts/Montserrat-OFL.txt",
+      "sha256": "8b7141c03fa4f8d44e6345d5d4931709290f0f67875e452e95ac1fd3a027802e"
+    },
+    {
+      "path": "assets/fonts/montserrat.ttf",
+      "sha256": "0f7b311b2f3279e4eef9b2f968bcdbab6e28f4daeb1f049f4f278a902bcd82f7"
+    },
+    {
+      "path": "assets/fonts/Noto-OFL.txt",
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "path": "assets/fonts/noto.ttf",
+      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+    },
+    {
+      "path": "assets/fonts/OPPO-License.txt",
+      "sha256": "b013f80fa2fa6f6db4a31b793676f787af78263b568088a2d896e9d9b3e5fde7"
+    },
+    {
+      "path": "assets/fonts/oppo.ttf",
+      "sha256": "6c7d5864c661516e1f400d9f21e4297f2e2a0719909691e29607cc4ef484a9f4"
+    },
+    {
+      "path": "assets/fonts/Reference-Roboto-OFL.txt",
+      "sha256": "061402327a96aadb0bfb694a960ed289ecd38d383e396243831ab81feb109c41"
+    },
+    {
+      "path": "assets/fonts/reference-roboto.ttf",
+      "sha256": "d7598e12c5dbef095ff8272cfc55da0250bd07fbdecbac8a530b9b277872a134"
+    },
+    {
+      "path": "assets/frame/FRAME.md",
+      "sha256": "4761e6b30906a8e0c9564c6dee53283dcb6bde3b9f55f7fa0db722c36c4ebfce"
+    },
+    {
+      "path": "assets/frame/glass.js",
+      "sha256": "9296541e202d8e4c184233782a84fbcb4cb0936211bafc6019dc78714a64f326"
+    },
+    {
+      "path": "assets/frame/mg-style.css",
+      "sha256": "c25ae33c198e30c0fcad2d8fc176882ff28f1dc7d0caf332db6089681922917c"
+    },
+    {
+      "path": "assets/frame/resources.json",
+      "sha256": "af18d7fbaf90d56b6bfcb93b151c0dc6510b680ca75b134d9d1fcd47c3645155"
+    },
+    {
+      "path": "assets/frame/source.json",
+      "sha256": "8c2fd43882ef59ac5b3cc9223540f4f88d24e76472954f38b3d9532a5ba382bd"
+    },
+    {
+      "path": "assets/glass.js",
+      "sha256": "9296541e202d8e4c184233782a84fbcb4cb0936211bafc6019dc78714a64f326"
+    },
+    {
+      "path": "assets/gsap.min.js",
+      "sha256": "c174bfce53a729418d57a8ad8625e7247c793a22fef8e2851e3cfa3de9cd8280"
+    },
+    {
+      "path": "assets/host-edge-shadow/preset.json",
+      "sha256": "18644702aecc69f8e166c7691afc9eb491a95e16d19d9377edab9a6f1315c936"
+    },
+    {
+      "path": "assets/host-edge-shadow/soft-edge-v1.png",
+      "sha256": "de7635c83de0c0823ec3d123a22c4c4369924e3450af85fa7167cd879260c3a7"
+    },
+    {
+      "path": "assets/host.jpg",
+      "sha256": "d5dd19324217db8c8baeadc7b29d35b12a0953358c5ce7ee80a2803fe66e9f1b"
+    },
+    {
+      "path": "assets/material-display/preset.json",
+      "sha256": "1855c3ec901d762455b82c7d23af40c2f30bd7ed685f7d8a77dd46d3d9cb97aa"
+    },
+    {
+      "path": "assets/material-display/source.json",
+      "sha256": "82633d93e7ab1ad31f4d8672753d5e794ed8d213dde0390e58edef6b28b89bd0"
+    },
+    {
+      "path": "assets/material-display/style.css",
+      "sha256": "210dac8e55f594c00547b946827b73bae92c2ade8dee4fbaa6644806937ca720"
+    },
+    {
+      "path": "assets/material-regions.js",
+      "sha256": "db865161ec145188d878d4bcdbe064f2d476a7df0de7c4d573b82e437585c6b7"
+    },
+    {
+      "path": "assets/material-regions.json",
+      "sha256": "3a7f06e5f88c2baa2f9d8fb8e2ce25b3ac35467df46f751330dd9faa8169b311"
+    },
+    {
+      "path": "assets/material-source.html",
+      "sha256": "874ca6ee2112d8f53a773b03d5f3e6d8b84128d77832ee83f7033082176792d7"
+    },
+    {
+      "path": "assets/material-source.png",
+      "sha256": "f9bb4f13e8b991a2eeadc8e3e517ce803130b43c494f8034e85b8be91fb57597"
+    },
+    {
+      "path": "assets/material.css",
+      "sha256": "adb76b081044bd0750d82b82623b1801a99c92d19794253a399455949d23315c"
+    },
+    {
+      "path": "assets/material.js",
+      "sha256": "4d9f9f659b6dad755e8092efe654c1394806aca7505e82c2cec12e876058ed0d"
+    },
+    {
+      "path": "assets/navigation-progress/runtime.js",
+      "sha256": "d7958126ed5211b9e3ce19486e510a60b892952f94e43fc279e9ec45c9ea7da5"
+    },
+    {
+      "path": "assets/navigation-progress/style.css",
+      "sha256": "aaedbd24136f8aff36a7f462988cac2947d53c2bbfc20371a2aaef52affa31c4"
+    },
+    {
+      "path": "assets/preview.js",
+      "sha256": "ea7306acec19262b346640607d0b4c7572632dda5f301a1da1ab69147bc2073d"
+    },
+    {
+      "path": "assets/production.css",
+      "sha256": "1b6e558bbfef81c8b719e46786ea608666a0fcce1fced5a2b717da3669309fbe"
+    },
+    {
+      "path": "assets/production.js",
+      "sha256": "152506265b5471382dff50b7bc98e674a06e35536a3ab960a00d6aeff81c7a8e"
+    },
+    {
+      "path": "assets/roll-transitions/dust.svg",
+      "sha256": "d29cee2eeea55d03e75357217be8821a27d81cd07dce702752947663bfd0dfd0"
+    },
+    {
+      "path": "assets/roll-transitions/grain.svg",
+      "sha256": "e86011a7d8cfa8d3bcd560e91dde917b1c3c4a6aa7f83ba3b99a9890acd92245"
+    },
+    {
+      "path": "assets/roll-transitions/preset.json",
+      "sha256": "0c3e6d2a2f92d4e976edf327a85db8584e06ac5a572971fefca7b23ccf5a501b"
+    },
+    {
+      "path": "assets/roll-transitions/runtime.js",
+      "sha256": "d6c4f09475d59c22819c51aa8d272f45a48e522202b8d971aa07bffa554d65e1"
+    },
+    {
+      "path": "assets/roll-transitions/source.json",
+      "sha256": "644360e58e4bd9d9a200fd8cec5d98ec2d761285a5806f6709238b36aa461784"
+    },
+    {
+      "path": "assets/roll-transitions/style.css",
+      "sha256": "c50a394c623eb0e7c7a1aa15637cac420598a0276b6881b2fc037e6111e2c6f7"
+    },
+    {
+      "path": "assets/runtime.js",
+      "sha256": "addc92543ea2442c9d60aa68ffbbc53e1e84c31f0cd3c38ccc0b141d88c5de51"
+    },
+    {
+      "path": "assets/sfx/camera-source.json",
+      "sha256": "356a2748d92c61b145b5aeec4f158a47b88442ddc5d435814b11a8089c7672cc"
+    },
+    {
+      "path": "assets/sfx/camera.wav",
+      "sha256": "b6275177f23560cb0f310c89c16e457f1310952c2b6a1671391e0e25e5752a96"
+    },
+    {
+      "path": "assets/sfx/click-soft.mp3",
+      "sha256": "175192bc866576566a3b61b7b0bcbd82cb6f7311f85fb22edac3cd601871c521"
+    },
+    {
+      "path": "assets/sfx/CREDITS.md",
+      "sha256": "b1cae57682050f8687844bb451062123b387b9944ce13f158b9c0514c6aa267b"
+    },
+    {
+      "path": "assets/sfx/ping.mp3",
+      "sha256": "4ba01daafcfc3d49dedf34b9c20a6ca1409b4e8c045e8105b8ccbd938bfb9d51"
+    },
+    {
+      "path": "assets/sfx/pop.mp3",
+      "sha256": "2da3bb4059047ce50ff0a1c093ff653f8d853723ab5abad659d4f4258a664358"
+    },
+    {
+      "path": "assets/sfx/whoosh-short.mp3",
+      "sha256": "45945aa34c57fa2f170bed67072df2111f27eef7a16e7e01ad765db21ac346fa"
+    },
+    {
+      "path": "assets/signatures/catalog.js",
+      "sha256": "bc6df4511f9030df451f943bd6d05a0fb4dac79acc55d6fc858b3aaeba074f01"
+    },
+    {
+      "path": "assets/signatures/catalog.json",
+      "sha256": "e78966f7d934160fe12a7389dad4cfc68359933fe5f0a918038897ccb761b2d1"
+    },
+    {
+      "path": "assets/signatures/original-motion.js",
+      "sha256": "f61bbe608cb5733b523fcbf174d71ced5a8672dca64c0919936deaf8445a56c0"
+    },
+    {
+      "path": "assets/signatures/source-credits.json",
+      "sha256": "4d342b10f8372c3bb0699a6f5b84c4cfefeffed0fe0ecff3fd7c93eed061edc9"
+    },
+    {
+      "path": "assets/sound.js",
+      "sha256": "9d30e8edcef5bc24c29ff2d12ddfd11a62d877fd48094d02fe9e21a4483ba627"
+    },
+    {
+      "path": "references/animation-routing.md",
+      "sha256": "90738f7ecfa823ec1299e340a357899cf415b86bec7ae21e721b8ba630794084"
+    },
+    {
+      "path": "references/authoring.md",
+      "sha256": "02c13ba7c00514fa4e6a7ee1aaa964ef10462b3b636dae4dd0bc91ce331b3299"
+    },
+    {
+      "path": "references/content-slots.json",
+      "sha256": "7e589ad62ec70a78b91297cba14039ea470c745ffc77126703232a8e6f5e1fea"
+    },
+    {
+      "path": "references/effect-catalog.json",
+      "sha256": "780d400048103356eaab2d6957c37ea8151f59d708f615aede38c6cef05ac686"
+    },
+    {
+      "path": "references/first-install.md",
+      "sha256": "43ae3ce1a348abdd26d03b339fbbf9850aaa2607a59ac65e4304227d354126a3"
+    },
+    {
+      "path": "references/host-edge-shadow.md",
+      "sha256": "f269998646170ad5a20f75ab5a73ddb5259f47f38c5ef2e63cf9e36132e51239"
+    },
+    {
+      "path": "references/images/progress-bar-a.png",
+      "sha256": "4337bcd7142d98b8914f377dec15aa7ca69da1fa154402240ec4633ab9261c44"
+    },
+    {
+      "path": "references/images/ref-01.png",
+      "sha256": "bb12e4778b8c75ec4fa2121e3e449a83039dbbf75785133b5a4365451b87faac"
+    },
+    {
+      "path": "references/images/ref-03.png",
+      "sha256": "380de1d4a82988f6dd8f304a72bf363ce9113845b02f1e142fe392f6ae63d586"
+    },
+    {
+      "path": "references/images/ref-06.png",
+      "sha256": "eb09270385d98f259773cca3c5dae430281c375167da65db18a317125d7250d3"
+    },
+    {
+      "path": "references/images/ref-09.png",
+      "sha256": "400dad98803ba70e4fb2413951b2be89edbc0006076f13e07577d58656ac93a6"
+    },
+    {
+      "path": "references/images/ref-10-white-bubbles.png",
+      "sha256": "eb09270385d98f259773cca3c5dae430281c375167da65db18a317125d7250d3"
+    },
+    {
+      "path": "references/images/ref-11-glass-bubble.png",
+      "sha256": "380de1d4a82988f6dd8f304a72bf363ce9113845b02f1e142fe392f6ae63d586"
+    },
+    {
+      "path": "references/images/ref-12-glass-volume.png",
+      "sha256": "bb12e4778b8c75ec4fa2121e3e449a83039dbbf75785133b5a4365451b87faac"
+    },
+    {
+      "path": "references/images/ref-13.png",
+      "sha256": "de172d1fbec5e63c7e3dea516e49590a71a2165b85b64974d42ce61dd432d2ed"
+    },
+    {
+      "path": "references/images/ref-14.png",
+      "sha256": "21f28fdc406de9170cc3cfc905e4eea115eb9c68dd871920e38e8fe422020971"
+    },
+    {
+      "path": "references/images/ref-15.png",
+      "sha256": "8d39c166fc1a15c23d3801450056b0e4a7245c57eb8f8d291d7c3506236de664"
+    },
+    {
+      "path": "references/images/ref-16.png",
+      "sha256": "47d17c6c1954c30ba93483713a1af037e98f7b2e6953c9ab1c8a74fab971cab0"
+    },
+    {
+      "path": "references/images/ref-17.png",
+      "sha256": "c59c42461794875b10dd5d10b31285b4b633fadc3da8eeda40754eb4d838d6c9"
+    },
+    {
+      "path": "references/material-display.md",
+      "sha256": "6f474b9eb8688316b938ee139db4685daf23202ee73fad8dee7c6aa6417ab6ae"
+    },
+    {
+      "path": "references/motion.json",
+      "sha256": "e78966f7d934160fe12a7389dad4cfc68359933fe5f0a918038897ccb761b2d1"
+    },
+    {
+      "path": "references/navigation-progress.md",
+      "sha256": "876e6b93a5c11a3aa7ba17d2ccfd0a0976c091231811c7ed8fffd4a8df7ac4ed"
+    },
+    {
+      "path": "references/plan-format.md",
+      "sha256": "e9ee268d8d195503b3b7eaf48ab310d6fdf3d7dd2b1f0d5fe9c1aa611d53d87f"
+    },
+    {
+      "path": "references/production-layers.json",
+      "sha256": "139f6b555466fc6c69f13a62bcb9fcbacd0732c4ce09cb395e878571fe65b3a6"
+    },
+    {
+      "path": "references/production-layers.md",
+      "sha256": "13e272ccaa0f81f43109bfddfbfe48beb95e2c2d66fdf818877df5ce93f59b8c"
+    },
+    {
+      "path": "references/production-provenance.json",
+      "sha256": "1f41e2dc88229320628614f6604a98c6fd710de351554fb1fbf95973ccd01a92"
+    },
+    {
+      "path": "references/roll-transitions.md",
+      "sha256": "58d40ccb98e58648b1f9d36477f4bf9f99bf467cac2987bc587216a8a4d2e54d"
+    },
+    {
+      "path": "references/runtime-dependencies.md",
+      "sha256": "a3ad04744ecc2c508fdcdac505768695141de1508402669dbbe7f6b41180dbe7"
+    },
+    {
+      "path": "references/validation.json",
+      "sha256": "74390453b4ba7c38da11b89bff5cb80f5ed3a662b68ac1a5abdcabe0e134afa2"
+    },
+    {
+      "path": "references/workflow.md",
+      "sha256": "27c0fd82e7fb60ff941838956453a9c84fd1e9271930ffb0257844e1dc6752ed"
+    },
+    {
+      "path": "scripts/animation_contract.py",
+      "sha256": "527599e84c0913ebe49132eae86994e8c6bf53e436931cf098405f295076d113"
+    },
+    {
+      "path": "scripts/animation_insert.py",
+      "sha256": "33e4ed3d394d2c2cb91a4f8cb950e4cda18120ba277c1cfcea7a58e9f16672a8"
+    },
+    {
+      "path": "scripts/animation_routing.py",
+      "sha256": "cbc12815c9bf0c7dc88df4889c3a5eb29793a5f538888e7789d00d4eb6249b27"
+    },
+    {
+      "path": "scripts/build_preview.mjs",
+      "sha256": "f9c304cca24488b008f6df61a21be39e5d1ecfa6ca2db53894bb2b3d378398f9"
+    },
+    {
+      "path": "scripts/build_reference_preview.mjs",
+      "sha256": "4eaa5eb9ba7cb67c6c78c21ff3ac110a44df1ef6c29bdbc30ba90d435f0d9cdc"
+    },
+    {
+      "path": "scripts/captions.py",
+      "sha256": "555531f1f8058a8b63bf792944e5a63a57a57eb534d295276bd222df450b3ec9"
+    },
+    {
+      "path": "scripts/capture_exit_textures.mjs",
+      "sha256": "4072ea9a637334a1a23f12753104be9727197971069f67df370fe4fca89296d1"
+    },
+    {
+      "path": "scripts/compile.py",
+      "sha256": "7af41ae4151a2b5d30cc1a0df4270971262d759e7940f3e1a5b70401cfbb20c2"
+    },
+    {
+      "path": "scripts/content_slots.py",
+      "sha256": "41704a1a3e7b6de77178e0f5dfd71836a3ac84d2f4e2359fb4f7c2b0dbeffd09"
+    },
+    {
+      "path": "scripts/effect_planning.py",
+      "sha256": "248e136b4de72ceedda7b43435497c7b2733f544c1003a12feea0ea0e176245c"
+    },
+    {
+      "path": "scripts/exit_effects.py",
+      "sha256": "cbb029c89f33473ce588f70938f8c5ff11224ef9e005cc3906da794b492774ef"
+    },
+    {
+      "path": "scripts/frame_handoff.py",
+      "sha256": "341bbf724fa9af45a915c8d852d766e9d8e45becb29272c19f815b84173af1d7"
+    },
+    {
+      "path": "scripts/material_display.py",
+      "sha256": "e97871cf5014a2426f40dcef92ee388d6cf2e01b16aecb9d9f17ee8de446c367"
+    },
+    {
+      "path": "scripts/navigation.py",
+      "sha256": "12a4203d3029cc5ea5c4dde9b89d184859ed403b35dc915a07875f166c27e553"
+    },
+    {
+      "path": "scripts/object_assets.py",
+      "sha256": "a637d1c04086330a71516eee616a69ca971b47761498fb5c27dc7ca990f4cb24"
+    },
+    {
+      "path": "scripts/orchestration.py",
+      "sha256": "471334aa319b1430d941e5a4a9c02e58d5158bdbde2b9ca1b3b0f81a095a92e1"
+    },
+    {
+      "path": "scripts/plan.py",
+      "sha256": "181e75c269e5017f10481a1ee2c79de326d4061238511c8b1c9d230a6019bbb9"
+    },
+    {
+      "path": "scripts/prepare.py",
+      "sha256": "f248ae2a9ca2d629b0c622d80a9aa5fab1a0041ca3f0b35630075549187e82fa"
+    },
+    {
+      "path": "scripts/prepare_exit_textures.py",
+      "sha256": "731339a31e8d0d22776518aa13c76ed55012c79b212088cd1d620d36029a7624"
+    },
+    {
+      "path": "scripts/production_layers.py",
+      "sha256": "2d056610fcd2f0f57a887c70c71dc753f6f408c33c080a4b39d84c9c33028f4f"
+    },
+    {
+      "path": "scripts/refresh_bundle.py",
+      "sha256": "527d2eeba034c2987a4e45f0c13f15fcd84e9d79b7373b8bdd3d7234972f3e2a"
+    },
+    {
+      "path": "scripts/render_production.mjs",
+      "sha256": "0e4ef28b957f5466a7870c64ebe8d64d20625504091c4ce7e1de6e0c431fa29b"
+    },
+    {
+      "path": "scripts/render_templates.mjs",
+      "sha256": "1b8827443dd8e956123e4bfec4208f9bdb69fd983588530fa699a533d78c3788"
+    },
+    {
+      "path": "scripts/roll_transitions.py",
+      "sha256": "427653998d540756418072b25ff1af0f38118d3a8a1e8e62d2ed36af8a69afef"
+    },
+    {
+      "path": "scripts/scene_kit.py",
+      "sha256": "63242fa77dd478e8b7ad4f4334eb9e03c0f45a21d1563d7a4c4ebcfecf0367f3"
+    },
+    {
+      "path": "scripts/stage_animation.py",
+      "sha256": "76338751c81332bc0a15952d665ebe4852abea8ef7febdacd1cb7f4999ac8d88"
+    },
+    {
+      "path": "scripts/stage_logo.py",
+      "sha256": "ea1dd379bf2a8c822d07e3636446e7bd999f2687ed94b670644f7907ebc742db"
+    },
+    {
+      "path": "scripts/stage_object.py",
+      "sha256": "873fb1856f1d4f2b25236e423881228d4e03aaeba8260855986b754f713d03a2"
+    },
+    {
+      "path": "scripts/test_animation_providers.py",
+      "sha256": "a1046a0e39f379cdb9c17233424a368894a46be063d5d6567c17bbbe05961e5b"
+    },
+    {
+      "path": "scripts/test_material_display.py",
+      "sha256": "d22457525e07e49bb1a153039b36c6cdfc1a6fa3682c83d0d74b83885e6397b7"
+    },
+    {
+      "path": "scripts/test_navigation_progress.py",
+      "sha256": "2b2d3289c6322436aaf50f1ff847a890b2b7dd1e2ec4d6590860db38396c56de"
+    },
+    {
+      "path": "scripts/test_production.py",
+      "sha256": "746a9ad8026c907da2baf4b8e26e9068a49ec074679cfc6ac2126d7244ded401"
+    },
+    {
+      "path": "scripts/test_reference_layers.py",
+      "sha256": "dc77f3e1a75c9563e1cd4c2d25016a5a64a3a2804e1b6afad60f59b546ff1f27"
+    },
+    {
+      "path": "scripts/test_roll_transitions.py",
+      "sha256": "490bef1839af2b64d16c74b114466fd69d6999c798f924e3ef48139caec25ca3"
+    },
+    {
+      "path": "scripts/test_selection.py",
+      "sha256": "64f14bc3b689ef1a052b6df56054a0e4c6eda4d7362b425e14ea529b6efcc5f0"
+    },
+    {
+      "path": "scripts/with-runtime.mjs",
+      "sha256": "5462720b733348bf073304a999834ac1e03831e77c9229b7c0d170a7aa303979"
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "68fe3b00d162a9035c171cee4a9f5f35fe1f4ab564caba4552bf1078bb134b7a"
+    }
+  ]
+}
