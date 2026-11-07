@@ -1,0 +1,737 @@
+{
+  "date": "2026-10-14",
+  "rollTransitions": {
+    "date": "2026-10-18",
+    "version": "glass-lime-roll-transitions/v1",
+    "approvedRecipes": [
+      "glass-slide",
+      "lime-leak"
+    ],
+    "selectionApproval": "Both defaults approved; per-shot choice delegated; same style on entry and return",
+    "contractTests": 64,
+    "contractResult": "passed",
+    "testSources": [
+      "scripts/test_roll_transitions.py",
+      "scripts/test_selection.py",
+      "scripts/test_material_display.py",
+      "scripts/test_navigation_progress.py",
+      "scripts/test_production.py"
+    ],
+    "integration": {
+      "durationSec": 24,
+      "input": "synthetic AV host and moving calibration-video B-roll; complete animation handoff contract and cinema stage",
+      "hyperframesVersion": "0.8.157",
+      "samples": 13,
+      "lintErrors": 0,
+      "runtimeErrors": 0,
+      "layoutErrors": 0,
+      "warning": "Existing caption grouping triggers timeline_track_too_dense",
+      "forwardBackwardCapturePairs": 6,
+      "maximumMeanChannelDifferenceOutOf255": 0.006444,
+      "contrastAudit": "not run on calibration graphics",
+      "motionAudit": "not enabled by CLI"
+    },
+    "evidenceProject": "lvbaoshi-roll-preview-20261018/verification/integration-result.json",
+    "scope": "Approved recipe appearance, synthetic dynamic-media assembly, boundary ownership, seek comparison, historical defaults and asset integrity; not real-film or replacement-subject artistic acceptance"
+  },
+  "samples": 28,
+  "motionCases": 138,
+  "motionErrors": [],
+  "refinements": {
+    "checks": [
+      {
+        "name": "L02 default separated content",
+        "gap": 0,
+        "glassSurfaces": 1,
+        "ok": true
+      },
+      {
+        "name": "L02 replacement separated content",
+        "gap": 0,
+        "glassSurfaces": 1,
+        "ok": true
+      },
+      {
+        "name": "L08 default separated content",
+        "gap": 34,
+        "glassSurfaces": 0,
+        "ok": true
+      },
+      {
+        "name": "L08 replacement separated content",
+        "gap": 34,
+        "glassSurfaces": 0,
+        "ok": true
+      },
+      {
+        "name": "L02 magnet stays in subject",
+        "x": 588.44,
+        "y": 267.55375000000004,
+        "bounds": {
+          "left": 62,
+          "top": 157,
+          "right": 704,
+          "bottom": 771.1875
+        },
+        "ok": true
+      },
+      {
+        "name": "L08 magnet stays in subject",
+        "x": 551.72,
+        "y": 212.32571350097658,
+        "bounds": {
+          "left": 63,
+          "top": 143,
+          "right": 659,
+          "bottom": 528.140625
+        },
+        "ok": true
+      },
+      {
+        "name": "L14 magnet stays in subject",
+        "x": 549.9112805175781,
+        "y": 287.35855285644527,
+        "bounds": {
+          "left": 22.796875,
+          "top": 183.265625,
+          "right": 665.59375,
+          "bottom": 761.484375
+        },
+        "ok": true
+      },
+      {
+        "name": "L27 magnet stays in subject",
+        "x": 1008.886875,
+        "y": 286.03249999999997,
+        "bounds": {
+          "left": 172,
+          "top": 138.953125,
+          "right": 1192.59375,
+          "bottom": 956.03125
+        },
+        "ok": true
+      },
+      {
+        "name": "L30 edge at 0.3",
+        "x": -1500,
+        "clip": "inset(0px 100% 0px 0px)",
+        "center": 960,
+        "top": 330,
+        "plateTop": 330,
+        "error": 0,
+        "ok": true
+      },
+      {
+        "name": "L30 edge at 0.75",
+        "x": -750,
+        "clip": "inset(0px 100% 0px 0px)",
+        "center": 960,
+        "top": 330,
+        "plateTop": 330,
+        "error": 0,
+        "ok": true
+      },
+      {
+        "name": "L30 edge at 1.2",
+        "x": 0,
+        "clip": "inset(0px 100% 0px 0px)",
+        "center": 960,
+        "top": 330,
+        "plateTop": 330,
+        "error": 0,
+        "ok": true
+      },
+      {
+        "name": "L30 edge at 1.5",
+        "x": 10.9777,
+        "clip": "inset(0px 98.8565% 0px 0px)",
+        "center": 960,
+        "top": 330,
+        "plateTop": 330,
+        "error": 9.999999991983088e-05,
+        "ok": true
+      },
+      {
+        "name": "L30 edge at 1.7",
+        "x": 175.6426,
+        "clip": "inset(0px 81.7039% 0px 0px)",
+        "center": 960,
+        "top": 330,
+        "plateTop": 330,
+        "error": 4.0000000041118255e-05,
+        "ok": true
+      },
+      {
+        "name": "L30 edge at 1.9",
+        "x": 872.1721,
+        "clip": "inset(0px 9.14874% 0px 0px)",
+        "center": 960,
+        "top": 330,
+        "plateTop": 330,
+        "error": 3.999999989900971e-06,
+        "ok": true
+      },
+      {
+        "name": "L30 edge at 2.15",
+        "x": 1444.4256,
+        "clip": "inset(0px 0% 0px 0px)",
+        "center": 960,
+        "top": 330,
+        "plateTop": 330,
+        "error": 0,
+        "ok": true
+      },
+      {
+        "name": "L30 edge at 2.45",
+        "x": 1500,
+        "clip": "inset(0px 0% 0px 0px)",
+        "center": 960,
+        "top": 330,
+        "plateTop": 330,
+        "error": 0,
+        "ok": true
+      },
+      {
+        "name": "L30 edge at 3.6",
+        "x": 1500,
+        "clip": "inset(0px 0% 0px 0px)",
+        "center": 960,
+        "top": 330,
+        "plateTop": 330,
+        "error": 0,
+        "ok": true
+      },
+      {
+        "name": "L30 reverse at 1.9",
+        "ok": true
+      },
+      {
+        "name": "L30 reverse at 0.75",
+        "ok": true
+      },
+      {
+        "name": "L30 reverse at 2.15",
+        "ok": true
+      },
+      {
+        "name": "L30 reverse at 0.3",
+        "ok": true
+      },
+      {
+        "name": "L30 reverse at 1.7",
+        "ok": true
+      },
+      {
+        "name": "L30 reverse at 1.2",
+        "ok": true
+      },
+      {
+        "name": "L30 normal playback",
+        "ok": true
+      },
+      {
+        "name": "glass uses actual backdrop, transparent sample labels",
+        "filter": "blur(3px) url(\"#L07-lens-0\") saturate(1.03) brightness(0.94)",
+        "ok": true
+      },
+      {
+        "name": "backdrop displacement changes patterned pixels",
+        "ok": true
+      },
+      {
+        "name": "backdrop follows changed background",
+        "ok": true
+      }
+    ],
+    "errors": []
+  },
+  "glassVolume": {
+    "checks": [
+      {
+        "name": "L02 bevel and optical maps",
+        "centre": [
+          128,
+          128,
+          128,
+          255
+        ],
+        "edgeNormals": [
+          [
+            46,
+            128,
+            128,
+            255
+          ],
+          [
+            210,
+            128,
+            128,
+            255
+          ],
+          [
+            128,
+            46,
+            128,
+            255
+          ],
+          [
+            128,
+            210,
+            128,
+            255
+          ]
+        ],
+        "blue": 3250,
+        "gold": 7102,
+        "lit": 4163,
+        "dark": 4982,
+        "ok": true
+      },
+      {
+        "name": "L05 bevel and optical maps",
+        "centre": [
+          128,
+          128,
+          128,
+          255
+        ],
+        "edgeNormals": [
+          [
+            46,
+            128,
+            128,
+            255
+          ],
+          [
+            210,
+            128,
+            128,
+            255
+          ],
+          [
+            128,
+            46,
+            128,
+            255
+          ],
+          [
+            128,
+            210,
+            128,
+            255
+          ]
+        ],
+        "blue": 3350,
+        "gold": 6667,
+        "lit": 4120,
+        "dark": 4779,
+        "ok": true
+      },
+      {
+        "name": "L07 bevel and optical maps",
+        "centre": [
+          128,
+          128,
+          128,
+          255
+        ],
+        "edgeNormals": null,
+        "blue": 3357,
+        "gold": 4086,
+        "lit": 3301,
+        "dark": 3028,
+        "ok": true
+      },
+      {
+        "name": "L30 bevel and optical maps",
+        "centre": [
+          128,
+          128,
+          128,
+          255
+        ],
+        "edgeNormals": [
+          [
+            46,
+            128,
+            128,
+            255
+          ],
+          [
+            210,
+            128,
+            128,
+            255
+          ],
+          [
+            128,
+            46,
+            128,
+            255
+          ],
+          [
+            128,
+            210,
+            128,
+            255
+          ]
+        ],
+        "blue": 5458,
+        "gold": 9333,
+        "lit": 6320,
+        "dark": 6901,
+        "ok": true
+      },
+      {
+        "name": "left card resting upper-inner corner recedes",
+        "rx": 4,
+        "ry": 6,
+        "pivot": [
+          0,
+          454.688
+        ],
+        "innerZ": -91.1462665,
+        "outerZ": -31.5653065,
+        "ok": true
+      },
+      {
+        "name": "left inward fold at 4.78",
+        "rx": 0.75,
+        "ry": 1.75,
+        "pivot": [
+          0,
+          544.594
+        ],
+        "innerZ": -27.7134565,
+        "outerZ": -7.1305075,
+        "ok": true
+      },
+      {
+        "name": "left inward fold at 5.04",
+        "rx": 6.2016,
+        "ry": 14.8566,
+        "pivot": [
+          0,
+          544.594
+        ],
+        "innerZ": -229.559889,
+        "outerZ": -56.866935000000005,
+        "ok": true
+      },
+      {
+        "name": "left inward fold at 5.25",
+        "rx": 10.4418,
+        "ry": 32.8777,
+        "pivot": [
+          0,
+          544.594
+        ],
+        "innerZ": -442.189982,
+        "outerZ": -81.72602,
+        "ok": true
+      },
+      {
+        "name": "left fold reverse seek",
+        "ok": true
+      },
+      {
+        "name": "right card resting upper-inner corner recedes",
+        "rx": 4,
+        "ry": -6,
+        "pivot": [
+          570,
+          454.688
+        ],
+        "innerZ": -91.1462665,
+        "outerZ": -31.5653065,
+        "ok": true
+      },
+      {
+        "name": "right inward fold at 4.78",
+        "rx": 0.75,
+        "ry": -1.75,
+        "pivot": [
+          673.359,
+          544.594
+        ],
+        "innerZ": -27.682918,
+        "outerZ": -7.1305075,
+        "ok": true
+      },
+      {
+        "name": "right inward fold at 5.04",
+        "rx": 6.2016,
+        "ry": -14.8566,
+        "pivot": [
+          673.359,
+          544.594
+        ],
+        "innerZ": -229.303668,
+        "outerZ": -56.866935000000005,
+        "ok": true
+      },
+      {
+        "name": "right inward fold at 5.25",
+        "rx": 10.4418,
+        "ry": -32.8777,
+        "pivot": [
+          673.359,
+          544.594
+        ],
+        "innerZ": -441.655169,
+        "outerZ": -81.72602,
+        "ok": true
+      },
+      {
+        "name": "right fold reverse seek",
+        "ok": true
+      },
+      {
+        "name": "refraction confined to bevel",
+        "interiorMean": 0,
+        "edgeMean": 16.544485194240625,
+        "ok": true
+      }
+    ],
+    "errors": []
+  },
+  "audio": {
+    "during": {
+      "loaded": 1,
+      "scheduled": 2
+    },
+    "stopped": {
+      "loaded": 1,
+      "scheduled": 0
+    },
+    "electronic": {
+      "loaded": 3,
+      "scheduled": 3
+    }
+  },
+  "hyperframesOk": true,
+  "hyperframesVersion": "0.8.156",
+  "portable": {
+    "cases": [
+      {
+        "project": "work/volume-portable-L05",
+        "ok": true
+      }
+    ],
+    "skillFrontmatterValid": true,
+    "scope": "fresh isolated L05 with revised bevel optics and reduced mirrored C fold"
+  },
+  "hostFinish": {
+    "checks": [
+      {
+        "name": "portable enabled from content",
+        "ok": true
+      },
+      {
+        "name": "centre retains original pixels",
+        "ok": true,
+        "centreOn": [
+          211,
+          167,
+          154
+        ],
+        "centreOff": [
+          211,
+          167,
+          154
+        ]
+      },
+      {
+        "name": "corner dims",
+        "ok": true,
+        "cornerOn": [
+          82,
+          75,
+          69
+        ],
+        "cornerOff": [
+          113,
+          104,
+          95
+        ]
+      },
+      {
+        "name": "foreground retains white pixels",
+        "ok": true
+      },
+      {
+        "name": "grid excluded",
+        "ok": true
+      },
+      {
+        "name": "gallery default off",
+        "ok": true
+      },
+      {
+        "name": "choice survives motion rebuild",
+        "ok": true
+      },
+      {
+        "name": "reverse seek reproduces pixels",
+        "ok": true
+      },
+      {
+        "name": "explicit disable",
+        "ok": true
+      }
+    ],
+    "errors": [],
+    "scope": "static host image, isolated L07 and gallery controls; dynamic narration not tested",
+    "hyperframes": {
+      "ok": true,
+      "version": "0.8.156",
+      "project": "work/host-finish-L07",
+      "warnings": [
+        "existing foreground nesting suggestion"
+      ]
+    }
+  },
+  "production": {
+    "tests": 15,
+    "errors": [],
+    "project": "work/production-contract-check-reference-v2",
+    "scope": "synthetic AV freeze/full-plan compile and rejection contracts; no real narration art approval"
+  },
+  "scope": "visual templates and full-plan technical checks as individually recorded; real narration art review and cross-topic production acceptance remain pending",
+  "nativeLayers": {
+    "date": "2026-10-15",
+    "version": "reference-retained/v3-original-capture",
+    "errors": [],
+    "nativeTests": 14,
+    "regressionTests": 15,
+    "browserCases": 8,
+    "maxReversePixelDifference": 1,
+    "controls": {
+      "referenceToggle": true,
+      "replacedText": "素材"
+    },
+    "previewHyperframesOk": true,
+    "compiledHyperframesOk": true,
+    "hyperframesVersion": "0.8.157",
+    "retained": [
+      "Pixel2all white companions",
+      "circle to original L02 glass"
+    ],
+    "referenceRecipes": [
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05"
+    ],
+    "retired": [
+      "progress",
+      "spotlight",
+      "solid",
+      "dashed",
+      "highlight",
+      "extract",
+      "behind text"
+    ],
+    "scope": "User accepted overall style; current revision preserves original host capture, adds faint Pixel2all contour glow, enlarges video slot, and demonstrates L02 callout over actual screenshot. Screenshot references do not establish original motion timing.",
+    "originalCapture": {
+      "early": {
+        "hostTransform": "none",
+        "videoTransform": "none",
+        "fit": "contain",
+        "x": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "hold": {
+        "hostTransform": "none",
+        "videoTransform": "none",
+        "fit": "contain",
+        "x": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "position": "glp-side-stage glp-host-centered"
+    },
+    "objectGlow": "drop-shadow(rgba(215, 255, 72, 0.22) 0px 0px 2px) drop-shadow(rgba(215, 255, 72, 0.11) 0px 0px 8px) drop-shadow(rgba(5, 9, 15, 0.314) 0px 14px 20px)",
+    "videoScale": {
+      "width": 1.2058823529411764,
+      "height": 1.2222222222222223
+    }
+  },
+  "localDomainWarpExit": {
+    "date": "2026-10-15",
+    "userApproved": true,
+    "approval": "用户认可局部退出并要求保存到Skill",
+    "parameterSource": "motion.json#exitTreatments.domain-warp",
+    "actualTemplateCases": 3,
+    "reverseSeekErrors": [],
+    "hyperframesOk": true,
+    "scope": "L02/L08/L14本期实际局部退出已审看；L07/L02替换文字的通用透明纹理准备已验证；不宣称所有题材艺术验收完成"
+  },
+  "selectionCoverage": {
+    "date": "2026-10-15",
+    "candidateCount": 41,
+    "equalTemplateBaseWeight": true,
+    "zeroUseCandidatesReported": true,
+    "unusedConsideredSegmentsReported": true,
+    "motionPolicyIsSeparate": true
+  },
+  "navigationProgress": {
+    "date": "2026-10-18",
+    "userApproved": true,
+    "decision": "A · 银灰磨砂分章底栏",
+    "candidateId": "navigation:progress",
+    "candidateCount": 42,
+    "implementation": "plan.navigation.progress + scripts/navigation.py + assets/navigation-progress",
+    "defaultEnabled": false,
+    "tests": "15 navigation contract/build tests; 5 selection tests; 16 production compile/rejection tests",
+    "e2e": "synthetic 12s host-only and 24s production fixture both produced slot-navigation-progress and a navigation-progress composition",
+    "status": "template and compiler path validated; real-film art and seek acceptance pending",
+    "scope": "1920x1080 static design selection and synthetic chapter-table build; not a real narration acceptance"
+  },
+  "cinemaDisplay": {
+    "date": "2026-10-18",
+    "userRequested": true,
+    "origin": "xiangsu-baijin #22",
+    "candidateId": "display:cinema",
+    "defaultEnabled": false,
+    "supportedBeatKinds": [
+      "media",
+      "broll",
+      "screen",
+      "animation"
+    ],
+    "tests": {
+      "total": 32,
+      "result": "passed",
+      "suites": [
+        "test_material_display",
+        "test_selection",
+        "test_production"
+      ]
+    },
+    "scope": "Synthetic AV freeze and formal compile for image, video and MG; configuration rejection, unchanged no-display path and selection coverage. Real narration visual/seek acceptance remains project-specific."
+  },
+  "providerIntegration20261021": {
+    "date": "2026-10-21",
+    "scope": "Skill orchestration/provider/source-freeze/compiler maintenance; synthetic technical fixtures, not artistic acceptance",
+    "candidateCount": 46,
+    "testCommand": "python -B -m unittest discover -s scripts -p 'test_*.py'",
+    "testsRun": 75,
+    "skipped": 1,
+    "skipReason": "Existing media-backed suites require explicitly supplied real fixtures",
+    "providerChecks": [
+      "Lemo-only prepare/source freeze/actual compiler roundtrip without an MG installation dependency",
+      "MG/Lemo candidate and beat ownership remain distinct",
+      "source SHA, style identity, credit prefix and actual media window rejection",
+      "same-plan MG/Lemo route identity",
+      "standalone copy catalog and 11 provider-contract tests outside original installation"
+    ],
+    "packaging": "All added adapters, scripts, tests and references live in this Skill; animation engines, framework runtimes and episode media are declared external dependencies",
+    "sourceOfEvidence": [
+      "scripts/test_animation_providers.py"
+    ],
+    "artisticApproval": "unverified; no new real-host production or cross-topic style acceptance claimed"
+  }
+}

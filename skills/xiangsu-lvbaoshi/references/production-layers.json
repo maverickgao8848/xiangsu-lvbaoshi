@@ -1,0 +1,9 @@
+[
+ {"id":"screen:callout","group":"圈点玻璃解释","trigger":"对着真实素材讲解，圈出对象并引线接已有L02玻璃卡","match":{"nativeKind":"screen","mode":"callout"},"objectRole":"none"},
+ {"id":"host:companions","group":"白色物件伴随","trigger":"Pixel2all白色陶瓷物件伴随人物，单侧/双侧独立轻动作，淡荧光绿轮廓边光","match":{"nativeKind":"companion"},"objectRole":"native"},
+ {"id":"reference:R01","group":"荧光重点字","trigger":"三行重点逐一强调，采用用户确认的中文A方案：全绿、明确中文字体、自然字形与行宽","match":{"templateId":"R01"},"objectRole":"none"},
+ {"id":"reference:R02","group":"轻透视媒体窗","trigger":"真人旁边插入图片或真实视频，匹配参考14圆角/细边/软投影","match":{"templateId":"R02"},"objectRole":"none"},
+ {"id":"reference:R03","group":"底部阶段文字","trigger":"白色短标题与三个荧光阶段词，匹配参考15描边/阴影","match":{"templateId":"R03"},"objectRole":"none"},
+ {"id":"reference:R04","group":"灵活讲解舞台","trigger":"大幅真实图或视频配侧边编号/短说明/轻动画","match":{"templateId":"R04"},"objectRole":"none"},
+ {"id":"reference:R05","group":"原构图素材伴随","trigger":"保持人物原拍摄位置，按留白摆放素材或动画，以局部阴影衔接","match":{"templateId":"R05"},"objectRole":"none"}
+]

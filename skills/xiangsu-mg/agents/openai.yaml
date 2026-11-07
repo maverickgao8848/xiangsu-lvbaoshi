@@ -1,0 +1,4 @@
+interface:
+  display_name: "像素 MG · Xiangsu"
+  short_description: "知识解释与机制动画；支持中文文稿、固定时间窗及上游视觉继承，沿用技术预览边界"
+  default_prompt: "用 $xiangsu-mg 把这段中文讲解制作成可编辑的知识解释动画，并遵循当前技术预览范围。"

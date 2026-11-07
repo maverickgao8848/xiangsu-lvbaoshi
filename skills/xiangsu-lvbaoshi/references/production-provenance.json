@@ -1,0 +1,53 @@
+{
+  "origin": "像素·白金 Xiangsu Baijin repository snapshot",
+  "adoption": "Necessary planning, provenance, animation handoff and caption modules; 像素·绿宝石 catalog/renderer adapters. No old MAV/Ying visual renderer or private avatar included.",
+  "modules": [
+    {
+      "source": "scripts/orchestration.py",
+      "sourceSha256": "96661e19c675668d054b5e86dcf8c9c5dddae004df073503b7375d13f766d487",
+      "local": "scripts/orchestration.py"
+    },
+    {
+      "source": "scripts/effect_planning.py",
+      "sourceSha256": "b13d18d223cb4bd1eaa93982bd0ce35aef5292830fdb57839d9733070c95ba88",
+      "local": "scripts/effect_planning.py"
+    },
+    {
+      "source": "scripts/animation_insert.py",
+      "sourceSha256": "dd70c7770e025b3b8df954e69f3b10f08da3020de2bc51dcbe036b69f74fb56f",
+      "local": "scripts/animation_insert.py"
+    },
+    {
+      "source": "scripts/animation_routing.py",
+      "sourceSha256": "8353d9d632b1493187ed047a3f7fbbbb57dcd74d5a31bbed9fb1768c564421d0",
+      "local": "scripts/animation_routing.py"
+    },
+    {
+      "source": "scripts/object_assets.py",
+      "sourceSha256": "a637d1c04086330a71516eee616a69ca971b47761498fb5c27dc7ca990f4cb24",
+      "local": "scripts/object_assets.py"
+    },
+    {
+      "source": "scripts/stage_object.py",
+      "sourceSha256": "873fb1856f1d4f2b25236e423881228d4e03aaeba8260855986b754f713d03a2",
+      "local": "scripts/stage_object.py"
+    },
+    {
+      "source": "scripts/stage_logo.py",
+      "sourceSha256": "ea1dd379bf2a8c822d07e3636446e7bd999f2687ed94b670644f7907ebc742db",
+      "local": "scripts/stage_logo.py"
+    },
+    {
+      "source": "scripts/compile.py",
+      "sourceSha256": "430e8012e7a0a14656bff39afb58dbb1639b7fb73de3d37420e2b8cd672fb209",
+      "local": "scripts/captions.py"
+    },
+    {
+      "source": "scripts/prepare.py",
+      "sourceSha256": "4a73ca2ef1572a87a6f52c0b787bf930884cd0f4fcdd41ed4b98a8ee8659b5dc",
+      "local": "scripts/prepare.py",
+      "adoption": "Input range, reviewed roughcut outputTokens and source-map timing normalization; independent 像素·绿宝石 resource freezing."
+    }
+  ],
+  "sceneKit": "Frozen native Scene Kit pack, upstream hashes/versions/licenses and local font aliases in assets/component-kit/manifest.json"
+}
