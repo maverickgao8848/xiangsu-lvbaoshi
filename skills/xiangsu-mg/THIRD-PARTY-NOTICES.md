@@ -1,8 +1,8 @@
 # 配套工作流来源
 
-本地交付包中的 `hyperframes`、`hyperframes-cli`、`hyperframes-registry`、`media-use`、`figma`、`remotion-to-hyperframes` 与 `slideshow` 来自官方仓库 https://github.com/heygen-com/hyperframes 的提交 `291144e87ddfee93a3cd01764810311f0b5c5016`，完整保留对应目录；各文件与官方 Git blob 校验一致。
+本次开源仓库通过官方安装器按需安装 `hyperframes`、`hyperframes-cli`、`hyperframes-registry`、`media-use` 等配套工作流，来源是 https://github.com/heygen-com/hyperframes 。历史本地交付包曾包含官方提交 `291144e87ddfee93a3cd01764810311f0b5c5016` 的配套工作流；该历史记录不表示本仓库内含它们。
 
-保留上游 [Apache License 2.0 原文](assets/licenses/HyperFrames-LICENSE.txt)。随包文件以 `MANIFEST.sha256` 为准；接收端 CLI 固定为 0.8.192，版本与传递依赖见 runtime/package.json 及其锁文件。
+保留上游 [Apache License 2.0 原文](assets/licenses/HyperFrames-LICENSE.txt)。接收端 CLI 固定为 0.8.192，版本与传递依赖见 runtime/package.json 及其锁文件。
 
 像素 MG 自身代码按本仓库 MIT 许可发布；第三方风格资源继续使用各自 metadata 与字体许可；上游工作流的许可不替代这些资源的许可。
 

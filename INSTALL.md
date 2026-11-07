@@ -26,7 +26,7 @@ node install.mjs --destination /path/to/empty/skills
 
 ## 3. 官方配套 Skill 和图像依赖
 
-执行官方安装器，按其提示选择当前 AI 客户端和需要的 Skills：
+执行官方安装器，将配套 Skills 安装到其支持的 AI 客户端：
 
 ```sh
 npx hyperframes@latest skills
@@ -34,7 +34,21 @@ npx hyperframes@latest skills
 
 至少准备 `hyperframes`、`hyperframes-cli`、`media-use`；涉及组件库、Figma、Remotion 或演示文稿时，再按需安装 `hyperframes-registry`、`figma`、`remotion-to-hyperframes`、`slideshow`。它们由 [HyperFrames 官方项目](https://github.com/heygen-com/hyperframes)维护，不由本仓库冒充或重新授权。若安装器界面、权限或网络失败，记录实际原因并按官方说明解决。
 
-绿宝石的物件 PNG 导入需要 Pillow。建议在用户选定的工作区建立独立 Python 虚拟环境，再执行该环境的 `python -m pip install Pillow`；后续使用该环境的 Python。不要重建或替换用户已有虚拟环境。
+绿宝石的物件 PNG 导入需要 Pillow。在用户选定的工作区建立一个新虚拟环境（目录不存在时），再安装 Pillow。Windows PowerShell：
+
+```powershell
+python -m venv .venv-xiangsu
+.\.venv-xiangsu\Scripts\python.exe -m pip install Pillow
+```
+
+macOS/Linux：
+
+```sh
+python3 -m venv .venv-xiangsu
+.venv-xiangsu/bin/python -m pip install Pillow
+```
+
+后续运行需要 Pillow 的命令时，使用该环境的 Python 路径。不要重建或替换用户已有虚拟环境。
 
 ## 4. 验证及启动
 
